@@ -1,1 +1,1 @@
-# pangeia
+# ConnTec
