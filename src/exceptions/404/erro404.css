@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center-container {
+    width: 650px;
+    height: 350px;
+}
+.center-container img{
+    display: flex;
+    margin: 0 auto;
+}
+.center-container h1{
+    display: flex;
+    margin-top: -120px;
+    justify-content: center;
+    
+}
+.center-container p{
+    display: flex;
+    justify-content: center;
+}
+a {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

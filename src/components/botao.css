@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+.button-block {
+    background-color: rgb(178, 0, 0);
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    border: black solid 2px;
+}
+.button-block:hover {
+    background-color: rgb(124, 6, 6);
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    border: black solid 2px;
+    transition: all 0.5s;
+}
+.button-block span{
+    display: flex;
+    position: relative;
+    font-size: large;
+    top: 25%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.button-block span:hover {
+    color: rgb(212, 208, 208);
+    transition: all 0.5s;
+}
