@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import conntec from './../../img/conntec.png';
 import './erro404.css';
-import Botao from '../../components/botao'
+import Botao from '../../components/botao/botao'
 
 //Página do Erro 404 -  Página Não encontrada.
 function Documento(){

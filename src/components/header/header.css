@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 :root {
-    --colorOne: rgb(226, 136, 19);
-    --colorTwo: #5c5c5c;
-    --colorWhite: white;
+    --colorRed: rgb(178, 0, 0);
+    --colorBlack: rgb(0, 0, 0);
+    --colorWhite: rgb(255, 255, 255);
+    --colorGray: rgb(102, 102, 102);
     --transparent: transparent;
 
-    --fontOne: 'Poppins', sans-serif;
-    --fontTwo: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --fontOne: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
@@ -19,19 +19,96 @@ body{
     font-family: var(--fontOne);
     overflow-x: hidden;
 }
-nav {
+header {
+    position: relative;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 96px;
-    background-color: rgba(87, 81, 81, 0.74);
-    color: black;
+    height: 75px;
+    display: flex;
+     /* justify-content: space-between;  */
+    align-items: center;
+    transition: 0.6s;
+    padding: 5px 50px;
+    background: white;
+    border-bottom: solid 2px rgb(171, 170, 170); 
+    /* border-bottom: double 5px black; */
+    z-index: 100000;
 }
-.container {
-    width: 100%;
+.hdbox {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+    height: 100%;
+    
 }
-nav ul {
-    list-style: none;
-}
-nav a {
+
+
+/* Logo Tipo */
+
+header .logo-site {
+    display: flex;
+    position: relative;
+    font-weight: 700;
+    color: var(--colorOne);
     text-decoration: none;
-    color: black;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 0.6s;
+    right: 20%;
 }
+
+
+/* Lista de Opções */
+.nav-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 420px;
+}
+.nav-main ul {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 77px;
+}
+
+.nav-main i {
+    color: var(--colorWhite);
+    font-size: 22px;
+    
+}
+.nav-main ul li {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    right: 15%;
+    
+}
+.nav-main ul li a {
+    position: relative;
+    margin: 0 17px;
+    text-decoration: none;
+    font-size: 14px;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    letter-spacing: 1px;
+    font-weight: 600px;
+    font-family: Verdana;
+    transition: 0.3s;
+    font-weight: inherit;
+}
+
+
+.nav-item:hover {
+    background-color: rgb(227, 227, 227);
+    border-bottom: solid 5px var(--colorRed); 
+    cursor: pointer;
+}
+
+

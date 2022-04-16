@@ -1,0 +1,13 @@
+footer {
+    height: 140px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-top: solid 2px rgb(171, 170, 170);
+}
+.hdbox-footer {
+    display: absolute;
+    width: 980px;
+    height: 100%;
+    position: flex;
+    margin: 0 auto;
+}
