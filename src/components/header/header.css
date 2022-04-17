@@ -13,6 +13,7 @@
     padding: 0; 
     margin: 0;
     box-sizing: border-box;
+    font: normal normal 1em Verdana;
 }
 body{
     width: 100%;
@@ -57,7 +58,7 @@ header .logo-site {
     font-size: 2em;
     letter-spacing: 2px;
     transition: 0.6s;
-    right: 20%;
+    right: 25%;
 }
 
 
@@ -87,7 +88,7 @@ header .logo-site {
     justify-content: center;
     align-items: center;
     list-style: none;
-    right: 15%;
+    right: 2%;
     
 }
 .nav-main ul li a {
@@ -99,7 +100,7 @@ header .logo-site {
     color: rgb(102, 102, 102);
     letter-spacing: 1px;
     font-weight: 600px;
-    font-family: Verdana;
+    font: normal normal 1em Verdana;
     transition: 0.3s;
     font-weight: inherit;
 }

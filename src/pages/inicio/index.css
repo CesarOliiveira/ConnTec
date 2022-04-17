@@ -1,1 +1,100 @@
 
+
+/*Topo da Pagina*/
+.section-project {
+    background-image: linear-gradient(to right,rgb(0, 0, 0) 0,rgba(0, 0, 0, 0.871) 90%,rgba(0, 0, 0, 0.657) 100%);
+    width: 60%;
+}
+.header-project {
+    width: 100% !important;
+    height: 60vh;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    border-bottom: solid 2px rgb(102, 102, 102);
+}
+.header-project .description-project {
+    height: 50%;
+}
+.header-project .description-project img {
+    position: relative;
+    left: 20%;
+}
+
+
+.header-project .description-project p {
+    color: rgb(255, 255, 255);
+    font: normal bold 1.56em Verdana;
+    left: 07%;
+    position: relative;
+    top: 2%;
+}
+.header-project .description-project span {
+    color: rgb(102, 102, 102);
+    font: normal normal 1em Verdana;
+    left: 04%;
+    position: relative;
+    top: 2%;
+}
+.description-project {
+    padding: 12px;
+}
+/*Segunda Parte do topo da página*/
+
+.conntec-project {
+    width: 40%;
+    background-image: linear-gradient(to left,rgba(0, 0, 0, 0.526) 0,rgba(0, 0, 0, 0.419) 60%,rgba(0, 0, 0, 0.649) 100%);
+    z-index: 2;
+}
+.App-project {
+    display: absolute;
+    position: absolute;
+    z-index: 999;
+}
+.engrenagem {
+    width: 40px;
+    height: 40px;
+    color: rgb(223, 215, 215);
+    display: flex;
+    position: absolute;
+    
+    z-index: 2;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .engrenagem {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+/*Botão de Download da Página Inicial*/
+.button-download {
+    width: 20vw;
+    height: 5vh;
+    position: relative;
+    margin: 0 auto;
+    right: 05%;
+    top: 10%;
+}
+.button-download .button {
+    width: 320px;
+    height: 50px;
+    border: solid 2px rgb(227, 29, 29);
+    background-color: red;
+   
+}
+.button-download .button span{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: rgb(255, 255, 255);
+    top: 17%;
+    font: normal normal 1.5em Verdana;
+}
+.button-download .button span svg{
+   position: relative;
+   right: 8px;
+   top: 2px;
+}
+.button-download .button:hover {
+    transition: 0.4s;
+    border-bottom: solid 4px rgb(205, 6, 6);
+    background-color: rgb(116, 46, 46);
+}

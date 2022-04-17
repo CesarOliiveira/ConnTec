@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Switch} from 'react-router-dom';
 
 import Inicio from './pages/inicio'
 import Documento from './pages/documento';

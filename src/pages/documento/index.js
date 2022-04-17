@@ -4,7 +4,11 @@ import React from 'react';
 // Página da Documentação do TCC - ConnTec
 function Documento(){
     return(
-        <h1>Página Documentação</h1>
+        <div class="header-project">
+            <div class="description-project">
+                
+            </div>
+        </div>
     );
 };
 
