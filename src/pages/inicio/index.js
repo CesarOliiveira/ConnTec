@@ -3,10 +3,12 @@ import Logo from './../../img/conntec.png'
 import { DiAndroid } from "react-icons/di";
 import { DiAptana } from "react-icons/di";
 import './index.css'
+
 // Página Inicial do Site
 export default function Inicio(){
     return(
         <>
+        {/*Topo da Página */}
             <div className="header-project">
                 <div className='section-project'>
                     <div class="description-project">

@@ -10,6 +10,7 @@ export default function header(){
     <>
         <header>
             <div className="hdbox">
+            
                 <div className='logo-site'>
                      <img width={200}  src={Logo}></img>
                 </div>
@@ -23,6 +24,7 @@ export default function header(){
                         <li className="nav-item"><a href="https://www.cps.sp.gov.br/">CENTRO PAULA SOUZA</a></li>
                     </ul>
                 </nav> 
+                <button id="btn-hamburguer">Menu</button>
             </div>
         </header>
     </>
