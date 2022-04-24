@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from './../../img/conntec.png';
-
+import {Link} from 'react-router-dom';
 
 import './header.css';
 
@@ -10,9 +10,10 @@ export default function header(){
     <>
         <header>
             <div className="hdbox">
-            
                 <div className='logo-site'>
-                     <img width={200}  src={Logo}></img>
+                    <a href="/">
+                         <img width={200}  src={Logo}></img>
+                     </a>
                 </div>
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
@@ -27,6 +28,7 @@ export default function header(){
                 <button id="btn-hamburguer">Menu</button>
             </div>
         </header>
+        
     </>
     )
 }

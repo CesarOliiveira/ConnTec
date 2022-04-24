@@ -1,72 +1,64 @@
 
+@import url('https://fonts.google.com/specimen/Roboto+Slab?sidebar.open=true&selection.family=Roboto+Slab:wght@400;700');
 
+*{
+    box-sizing: border-box;
+}
 /*Topo da Pagina*/
 .section-project {
-    background-image: linear-gradient(to right,rgb(74, 85, 92) 0,rgba(74, 85, 92, 0.896) 90%,rgba(74, 85, 92, 0.912) 100%);
-    width: 60%;
+    background-image: linear-gradient(to bottom,#e8e8e8 0,#e8e8e8 60%,#ffffff 100%);
+    width: 100% !important;
 }
 .header-project {
     width: 100% !important;
-    height: 70vh;
-    background-color: rgb(255, 0, 0);
+    height: 65vh;
+    position: relative;
+}
+
+
+.header-project .description-project h1 {
+    color: rgb(0, 0, 0);
+    align-items: center;
+    margin: 0 auto;
+    font: normal bold 3.87rem Verdana !important;
+    line-height: 1;
+    font-weight: 700!important;
     display: flex;
-    border-bottom: solid 2px rgb(102, 102, 102);
+    justify-content: center;
+    align-items: center;
 }
-.header-project .description-project {
-    height: 50%;
+.header-project .description-project h2 {
+    color: rgb(255, 0, 0);
+    align-items: center;
+    margin: 0 auto;
+    font: normal bold 4.5rem Verdana !important;
+    line-height: 1;
+    font-weight: 700!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.header-project .description-project img {
-    position: relative;
-    left: 20%;
-}
-
-
-.header-project .description-project p {
-    color: rgb(255, 255, 255);
-    font: normal bold 1.56em Verdana;
-    left: 07%;
-    position: relative;
-    top: 2%;
-}
-.header-project .description-project span {
+.header-project .description-project .description {
     color: rgb(102, 102, 102);
     font: normal normal 1em Verdana;
-    left: 04%;
     position: relative;
-    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 46px;
 }
 .description-project {
     padding: 64px;
 }
-/*Segunda Parte do topo da página*/
+.description-box {
+    width: 1080px;
+    height: 180px;
+}
 
-.conntec-project {
-    width: 40%;
-    background-image: linear-gradient(to left,rgba(74, 85, 92, 0.979) 0,rgba(74, 85, 92, 0.935) 90%,rgba(74, 85, 92, 0.922) 100%);
-    z-index: 2;
-}
-.App-project {
-    display: absolute;
-    position: absolute;
-    z-index: 999;
-}
-.engrenagem {
-    width: 40px;
-    height: 40px;
-    color: rgb(223, 215, 215);
-    display: flex;
-    position: absolute;
-    
-    z-index: 2;
-}
-@media (prefers-reduced-motion: no-preference) {
-    .engrenagem {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
+
 /*Botão de Download da Página Inicial*/
 .button-download {
-    position: relative;
+    position: flex;
     margin: 0 auto;
     margin-top: 64px;
 }
@@ -94,4 +86,33 @@
     transition: 0.4s;
     border-bottom: solid 4px rgb(205, 6, 6);
     background-color: rgb(116, 46, 46);
+}
+
+/* Main principal */
+#main-index {
+    width: 100%;
+    height: 1090px;
+}
+.box-apresentation {
+    width: 1080px;
+    height: 330px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
+}
+
+
+/*img {
+    transform: tranlasteY(0px);
+    animation: float 5s ease-in-out infinite;
+}*/
+@keyframes float {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
