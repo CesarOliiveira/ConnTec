@@ -1,7 +1,7 @@
 import React from 'react';
 import Logo from './../../img/conntec.png'
 import { DiAndroid } from "react-icons/di";
-import Chat from './../../img/chat.png'
+import Chat from './../../img/chat-icon.png'
 import Nuvem from './../../img/nuvem.png'
 import './index.css'
 
@@ -13,7 +13,7 @@ export default function Inicio(){
             <div className="header-project">
                 <div className='section-project'>
                     
-                    <div class="description-project">
+                    <div className="description-project">
     
                         <h1>Mural de Noticias da Etec</h1>
                         <h2>Para Alunos</h2>
@@ -22,7 +22,7 @@ export default function Inicio(){
                         
                         <div className="section-button">
                             <a  className="button-download" href='#'>
-                                <div class="button">
+                                <div className="button">
                                     <span><DiAndroid/> Download</span>
                                 </div>
                             </a>
@@ -33,11 +33,39 @@ export default function Inicio(){
                 </div>
             </div>
             <main id="main-index">
+
                 <div className='box-apresentation'>
 
+                    <div className='context-box'>
+
+                       
+
+                        <h1>
+
+                            Comunicação Etec e Aluno
+
+                        </h1>
+
+                        <div className='image-box'>
+
+                         <img width={60} src={Chat} className="icon-chat"/>
+
+                        </div>
+
+                    </div>
+
+                    <div className='info-box'>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    </div>
+
+                   
+
                 </div>
+
             </main>
-             
+        
         </>
     );
 };
