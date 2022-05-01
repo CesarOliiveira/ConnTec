@@ -174,7 +174,25 @@
     line-height: 1.65rem!important;
 
 }
-
+.list-box {
+    width: 1080px;
+    height: 230px;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
+    margin: 0 auto;
+    
+}
+.list {
+    width: 350px;
+    height: 230px;
+    padding: 12px;
+    margin-left: 15px;
+    
+    display: inline-block;
+    box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
+}
+.list:first-child {
+    margin-left: 0;
+}
 /*img {
     transform: tranlasteY(0px);
     animation: float 5s ease-in-out infinite;
@@ -184,7 +202,7 @@
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-30px);
+        transform: translateY(-10px);
     }
     100%{
         transform: translateY(0px);

@@ -63,7 +63,21 @@ export default function Inicio(){
                    
 
                 </div>
-
+                <div className='list-box'>
+                    <div className='list'>
+                       <h1>Noticias</h1>
+                       <p>Acesse as noticias da escola para ficar por dentro dos acontecimentos.</p>
+                    </div>
+                    <div className='list'>
+                        <h1>Notificações</h1>
+                        <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
+                        
+                    </div>
+                    <div className='list'>
+                        <h1>Calendario</h1>
+                        <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
+                    </div>
+                </div>
             </main>
         
         </>
