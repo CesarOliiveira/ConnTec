@@ -5,21 +5,42 @@ import './footer.css'
 export default function footer(){
     return(
     <>
-            <footer>
-                <div className='hdbox-footer'>
-                    <div className='info'>
-                        <p>Quer falar conosco? Ligue 0000-0000</p>
-                        <div class="contact-us">
-                            <h2>Contatos</h2>
-                            <ul>
-                                <li>WhatsApp</li>
-                                <li>Facebook</li>
-                                <li>Youtube</li>
-                            </ul>
+           <footer className = "ft-main">
+                <div className = "ft-container">
+                    <div className = "ft-box">
+                        <div className = "ft-img-box">
+                             
+                            <div className = "ft-logo">
+                            <> </>
+                            </div>
+
+                            <div className = "ft-logo">
+                            <> </>
+                            </div>
+
+                        </div>
+
+                        <div className = "ft-img-box">
+
+                            <div className = "ft-img">
+                             <> </>
+                            </div> 
+
+                            <div className = "ft-img">
+                            <> </>
+                            </div> 
+
+                            <div className = "ft-img">
+                            <> </>
+                            </div> 
+
+                            <div className = "ft-img">
+                            <> </>
+                            </div>
+
                         </div>
                     </div>
-                    <hr></hr>
-                    <p>© Copyright by -ConnTec </p>
+                    
                 </div>
             </footer>
     </>

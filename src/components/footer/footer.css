@@ -1,13 +1,44 @@
-footer {
-    height: 140px;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    border-top: solid 2px rgb(171, 170, 170);
+
+.ft-main{
+    height: 10rem;
+    background-color: #333;
+    align-items: center;
+    justify-content: center;    
 }
-.hdbox-footer {
-    display: absolute;
-    width: 980px;
-    height: 100%;
-    position: flex;
-    margin: 0 auto;
+.ft-conteiner{
+    height: 9rem;
+    background-color: rgb(155, 86, 86);
+    align-items: center;
+    justify-content: center; 
+}
+.ft-box{
+    flex-direction: row;
+    flex: 1;
+    height: 2rem;
+    background-color: wheat;
+    margin: 0px 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.ft-img-box{
+    flex-direction: row;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.ft-img{
+    border-radius: 50%;
+    background-color: #999;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 30px;
+    margin: 2rem;
+}
+.ft-logo{
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin: .5rem;
+    background-color: #999;
 }
