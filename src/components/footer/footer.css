@@ -1,7 +1,7 @@
 
 
 .ft-main{
-    height: 20rem;
+    height: 19rem;
     padding-top: 5rem ;
     background-color: #002b46;
     align-items: center;
@@ -68,6 +68,20 @@
     justify-content: center;
     height: 100%;
     margin: 0rem 3rem ;
-    flex-direction: row;
-    display: flex;
+}
+li{
+    display: block;
+    margin-top: .2rem;
+}
+.ft-link{
+    color: lightcoral;
+    font-size: 1rem;
+    margin: .5rem .2rem;
+}
+.bold{
+    font-weight: bold;
+}
+a{
+    margin: 0;
+    padding: 0;
 }

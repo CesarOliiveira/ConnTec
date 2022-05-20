@@ -44,30 +44,30 @@ export default function footer(){
 
                 <div className = "ft-box ft-height">
                     <div className = "ft-colum">
-                        {/* <p><strong>Título</strong></p>
+                        <p className = 'ft-link bold'>Título</p>
                         <ul className='ft-link'>
                             <li><a href='#'>link 1</a></li>
                             <li><a href='#'>link 2</a></li>
                             <li><a href='#'>link 3</a></li>
-                        </ul> */}
+                        </ul>
                     </div>
 
                     <div className = "ft-colum">
-                        {/* <p><strong>Título</strong></p>
+                        <p className = 'ft-link bold'>Título</p>
                         <ul className='ft-link'>
                             <li><a href='#'>link 4</a></li>
                             <li><a href='#'>link 5</a></li>
                             <li><a href='#'>Termos de uso</a></li>
-                        </ul> */}
+                        </ul>
                     </div>
 
                     <div className = "ft-colum">
-                        {/* <p><strong>Desenvolvido por</strong></p>
+                        <p className = 'ft-link bold'>Desenvolvido por</p>
                         <ul className='ft-link'>
                             <li>Equipe: NomeDaEquipe</li>
                             <li>Em parceria com: Etec</li>
-                            <li>Taboão da Serra</li>
-                        </ul> */}
+                            <li>Taboão da Serra - SP</li>
+                        </ul>
                     </div>
 
                     
