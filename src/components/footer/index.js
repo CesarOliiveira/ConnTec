@@ -6,17 +6,16 @@ export default function footer(){
     return(
     <>
         <footer className = "ft-main">
-            <div className = "ft-container">
                 <div className = "ft-box">
                     <div className = "ft-img-box">
                             
                         <div className = "ft-logo">
-                        <> </>
+                        <p> Imagem </p>
 
                         </div>
 
                         <div className = "ft-logo">
-                        <> </>
+                        <p> Imagem </p>
                         </div>
 
                     </div>
@@ -24,19 +23,19 @@ export default function footer(){
                     <div className = "ft-img-box">
 
                         <div className = "ft-img">
-                            <> </>
+                        <p> Icon </p>
                         </div> 
 
                         <div className = "ft-img">
-                        <> </>
+                        <p> Icon </p>
                         </div> 
 
                         <div className = "ft-img">
-                        <> </>
+                        <p> Icon </p>
                         </div> 
 
                         <div className = "ft-img">
-                        <> </>
+                        <p> Icon </p>
                         </div>
 
                     </div>
@@ -44,7 +43,7 @@ export default function footer(){
 
                 <div className = "ft-box ft-height">
                     <div className = "ft-colum">
-                        <p className = 'ft-link bold'>Título</p>
+                        <p>Título1</p>
                         <ul className='ft-link'>
                             <li><a href='#'>link 1</a></li>
                             <li><a href='#'>link 2</a></li>
@@ -53,27 +52,26 @@ export default function footer(){
                     </div>
 
                     <div className = "ft-colum">
-                        <p className = 'ft-link bold'>Título</p>
+                        <p>Título2</p>
                         <ul className='ft-link'>
-                            <li><a href='#'>link 4</a></li>
-                            <li><a href='#'>link 5</a></li>
-                            <li><a href='#'>Termos de uso</a></li>
+                            <li><a href='#'> link 4</a></li>
+                            <li><a href='#'> link 5</a></li>
+                            <li><a href='#'> Termos de uso</a></li>
                         </ul>
                     </div>
 
                     <div className = "ft-colum">
-                        <p className = 'ft-link bold'>Desenvolvido por</p>
+                        <p>Desenvolvido por:</p>
                         <ul className='ft-link'>
-                            <li>Equipe: NomeDaEquipe</li>
-                            <li>Em parceria com: Etec</li>
-                            <li>Taboão da Serra - SP</li>
+                            <li><a href='#'>Equipe: NomeDaEquipe</a></li>
+                            <li><a href='#'>Em parceria com: Etec <br/>
+                            Taboão da Serra - SP</a></li>
                         </ul>
                     </div>
 
                     
 
                 </div>
-            </div>
         </footer>  
     </>
     );

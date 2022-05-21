@@ -1,25 +1,18 @@
 
 
 .ft-main{
-    height: 19rem;
-    padding-top: 5rem ;
-    background-color: #002b46;
-    align-items: center;
-    justify-content: center;    
-}
-.ft-container{
-    height: 17rem;
+    height: 15rem;
     background-color: #a32331;
     padding-top: 0.5rem;
     align-items: center;
     justify-content: center; 
 }
+
 .ft-box{
     flex-direction: row;
     display: flex;
     height: 4rem;
-    background-color: gray;
-    margin: 1.5rem 1rem;
+    margin: 1.4rem 1rem;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -28,7 +21,6 @@
 .ft-img-box{
     padding: .3rem 0.5rem;
     width: 40%;
-    background: #000;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -38,12 +30,12 @@
 
 }
 .ft-img{
-    border-radius: 45%;
-    background-color: #999;
+    border-radius: 46%;
     align-items: center;
     justify-content: center;
-    height: 50px;
-    width: 60px;
+    background-color: gray;
+    height: 60px;
+    width: 70px;
     flex-direction: row;
     margin: 0rem 1rem;
     display: flex; 
@@ -52,36 +44,44 @@
     align-items: center;
     justify-content: center;
     width: 150px;
-    height: 50px;
+    height: 100%;
     background-color: #fff;
     margin: 0rem 2rem;
+    flex-direction: row;
+    display: flex;
 
 }
 .ft-height{
-    height: 8rem
+    height: 7rem
 }
 .ft-colum{
     padding: .3rem 0.5rem;
     width: 22rem;
-    background: #000;
     align-items: center;
     justify-content: center;
     height: 100%;
     margin: 0rem 3rem ;
 }
-li{
-    display: block;
-    margin-top: .2rem;
-}
-.ft-link{
-    color: lightcoral;
-    font-size: 1rem;
-    margin: .5rem .2rem;
-}
-.bold{
+.ft-colum p{
     font-weight: bold;
+    margin-bottom: 1rem;
+    color: #222;
+
 }
-a{
-    margin: 0;
-    padding: 0;
+.ft-colum ul li a{
+    color: #222;
+}
+
+.ft-colum ul li a:hover{
+    color:#002b46
+}
+
+
+.ft-link{
+    color: #222;
+    font-size: 1rem;
+}
+.ft-link li{
+    display: block;
+    margin-top: .4rem;
 }
