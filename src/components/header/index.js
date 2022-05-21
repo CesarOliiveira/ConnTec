@@ -18,7 +18,7 @@ export default function header(){
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
                     <ul className="nav-links">
-                        <li className="nav-item"><a href="#">HOME</a></li>
+                        <li className="nav-item"><a href="/">HOME</a></li>
                         <li className="nav-item"><a href="#">DOCUMENTAÇÃO</a></li>
                         <li className="nav-item"><a href="#">SOBRE NÓS</a></li>
                         <li className="nav-item"><a href="https://etects.com.br/">ETEC TABOÃO</a></li>
