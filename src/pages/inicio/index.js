@@ -1,8 +1,10 @@
 import React from 'react';
+
 import Logo from './../../img/conntec.png'
 import { DiAndroid } from "react-icons/di";
 import Chat from './../../img/chat-icon.png'
-import Nuvem from './../../img/nuvem.png'
+import Info from './../../img/info.png'
+
 import './index.css'
 
 // Página Inicial do Site
@@ -64,11 +66,11 @@ export default function Inicio(){
                            Acesso a informações
 
                         </h1>
-                        <div className='image-box'>
+                        
 
-                         <img width={60} src={""} className=""/>
+                         <img width={60} src={Info} className="icon-info"/>
 
-                        </div>
+                        
                     </div>
                     <div className='demonstration-image inline '>
                         <img width={10} src={""} className=""/>
@@ -97,6 +99,8 @@ export default function Inicio(){
                         <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
                     </div>
                 </div>
+
+                {/* Perguntas */}
                 <div className='explication-project'>
                     <div className='conntec-title'>
                         <h1>ConnTec</h1>
