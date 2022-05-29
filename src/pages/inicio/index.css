@@ -57,6 +57,10 @@
 
 
 /*Botão de Download da Página Inicial*/
+.section-button {
+    margin: 0 auto;
+    width: 320px;
+}
 .button-download {
     position: flex;
     margin: 0 auto;
@@ -64,7 +68,7 @@
 }
 .button-download .button {
     width: 320px;
-    height: 5vh;
+    height: 6vh;
     border: solid 2px rgb(227, 29, 29);
     background-color: red;
    
@@ -97,6 +101,7 @@
     width: 1080px;
     height: 330px;
     margin: 0 auto;
+    margin-bottom: 80px;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
 }
 .context-box {
@@ -201,62 +206,72 @@
         transform: translateY(0px);
     }
     50%{
-        transform: translateY(-10px);
+        transform: translateY(-5px);
     }
     100%{
         transform: translateY(0px);
     }
 }
     /* Segunda Box de Informação  */
-
-#main-index .box-apresentation .context-box-right h1 {
-
+#main-index .box-apresentation .context-box-right{
+        width: 100%;
         display: flex;
-    
+        position: relative;
         justify-content: right;
-    
-        align-items: center;
-    
-        font: normal bold 2.50rem "Robot Slab";
-    
-        padding: 12px 25px;
-        color: #333333;
-    
 }
+#main-index .box-apresentation .context-box-right h1 {
     
+            display: flex;
+        
+            justify-content: right;
+        
+            align-items: center;
+        
+            font: normal bold 2.50rem "Robot Slab";
+        
+            padding: 12px 65px;
+            color: #333333;
+        
+}
+        
 .info-box-right {
+        
+            width: 500px;
+        
+            height: 100%;
+        
+            display: flex;
     
-        width: 500px;
-    
-        height: 100%;
-    
-        display: flex;
-
-        position: absolute;
-    
-        align-items: top;
-    
+            position: absolute;
+        
+            align-items: top;
+        
 }
-    
+        
 .info-box-right p{
-    
-        padding: 0 0 0 10px;
-    
-        text-align: justify;
-    
-        font: normal normal 1.025rem Verdana;
-    
-        color: #666;
-    
-        line-height: 1.65rem!important;
-    
+        
+            padding: 0 0 0 10px;
+        
+            text-align: justify;
+        
+            font: normal normal 1.025rem Verdana;
+        
+            color: #666;
+        
+            line-height: 1.65rem!important;
+        
 }
 .demonstration-image {
-    width: 560px;
-    height: 100%;
+        width: 560px;
+        height: 100%;
+}
+.box-apresentation .context-box-right .icon-info {
+        position: absolute;
+        right: 450px;
+        animation: float 3s ease-in-out infinite;
 }
 .inline {
-    display: inline-block;
+        display: inline-block;
 }
 
 /* Caixa de Explicação do que é a Conntec */

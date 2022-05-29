@@ -68,9 +68,14 @@ export default function footer(){
                             Taboão da Serra - SP</a></li>
                         </ul>
                     </div>
-
                     
 
+
+                </div>
+                <div className='site-copyright'>
+                    <div className='ft-center-copyright'>
+                        <p>copyright © Conntec - Praça Miguel Ortega, 135 - Parque Assuncao, Taboão da Serra - SP, 06754-160 </p>
+                    </div>
                 </div>
         </footer>  
     </>

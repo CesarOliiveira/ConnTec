@@ -2,6 +2,7 @@ import React from 'react';
 import Logo from './../../img/conntec.png'
 import { DiAndroid } from "react-icons/di";
 import Chat from './../../img/chat-icon.png'
+import Info from './../../img/info.png'
 import Nuvem from './../../img/nuvem.png'
 import './index.css'
 
@@ -33,83 +34,83 @@ export default function Inicio(){
 
             {/* Conteudo do Projeto */}
             <main id="main-index">
+                <div className='wrap-content-info'>
+                    {/* Caixa de Informação 1 */}
+                    <div className='box-apresentation'>
+                        <div className='context-box'>
+                            <h1>
 
-                 {/* Caixa de Informação 1 */}
-                <div className='box-apresentation'>
-                    <div className='context-box'>
-                        <h1>
+                                Comunicação Etec e Aluno
 
-                            Comunicação Etec e Aluno
+                            </h1>
+                            <div className='image-box'>
 
-                        </h1>
-                        <div className='image-box'>
+                            <img width={60} src={Chat} className="icon-chat"/>
 
-                         <img width={60} src={Chat} className="icon-chat"/>
+                            </div>
+                        </div>
+
+                        <div className='info-box'>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                         </div>
                     </div>
 
-                    <div className='info-box'>
+                        {/* Caixa de Informação 2 */}
+                    <div className='box-apresentation'>
+                        <div className='context-box-right'>
+                            <h1>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            Acesso a informações
 
-                    </div>
-                </div>
+                            </h1>
+                            
 
-                    {/* Caixa de Informação 2 */}
-                <div className='box-apresentation'>
-                    <div className='context-box-right'>
-                        <h1>
+                            <img width={60} src={Info} className="icon-info"/>
 
-                           Acesso a informações
+                            
+                        </div>
+                        <div className='demonstration-image inline '>
+                            <img width={10} src={""} className=""/>
+                        </div>  
+                        <div className='info-box-right inline'>
 
-                        </h1>
-                        <div className='image-box'>
-
-                         <img width={60} src={""} className=""/>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                         </div>
                     </div>
-                    <div className='demonstration-image inline '>
-                        <img width={10} src={""} className=""/>
-                    </div>  
-                    <div className='info-box-right inline'>
+                    {/* O que tem no aplicativo */}
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className='list-box'>
+                        <div className='list'>
+                        <h1>Noticias</h1>
+                        <p>Acesse as noticias da escola para ficar por dentro dos acontecimentos.</p>
+                        </div>
+                        <div className='list'>
+                            <h1>Notificações</h1>
+                            <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
+                            
+                        </div>
+                        <div className='list'>
+                            <h1>Calendario</h1>
+                            <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
+                        </div>
+                    </div>
+                    <div className='explication-project'>
+                        <div className='conntec-title'>
+                            <h1>ConnTec</h1>
+                        </div>
+                        <div className='description-conntec'>
+                            <h2>O que é a ConnTec?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt moll</p>
+                        </div>
+                        <div className='description-conntec'>
+                            <h2>Qual é o seu objetivo?</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt moll</p>
+                        </div>
 
                     </div>
-                </div>
-
-                {/* O que tem no aplicativo */}
-
-                <div className='list-box'>
-                    <div className='list'>
-                       <h1>Noticias</h1>
-                       <p>Acesse as noticias da escola para ficar por dentro dos acontecimentos.</p>
-                    </div>
-                    <div className='list'>
-                        <h1>Notificações</h1>
-                        <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
-                        
-                    </div>
-                    <div className='list'>
-                        <h1>Calendario</h1>
-                        <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
-                    </div>
-                </div>
-                <div className='explication-project'>
-                    <div className='conntec-title'>
-                        <h1>ConnTec</h1>
-                    </div>
-                    <div className='description-conntec'>
-                        <h2>O que é a ConnTec?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt moll</p>
-                    </div>
-                    <div className='description-conntec'>
-                        <h2>Qual é o seu objetivo?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt moll</p>
-                    </div>
-
                 </div>
             </main>
 
