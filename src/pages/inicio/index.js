@@ -3,11 +3,15 @@ import Logo from './../../img/conntec.png'
 import { DiAndroid } from "react-icons/di";
 import Chat from './../../img/chat-icon.png'
 import Info from './../../img/info.png'
-import Nuvem from './../../img/nuvem.png'
+import Celular from './../../img/celular.png'
+import Conntec from './../../img/conntec.png'
+
 import './index.css'
 
 // Página Inicial do Site
 export default function Inicio(){
+   
+    
     return(
         <>
         {/*Topo da Página */}
@@ -68,11 +72,15 @@ export default function Inicio(){
                             
 
                             <img width={60} src={Info} className="icon-info"/>
-
+                            
                             
                         </div>
                         <div className='demonstration-image inline '>
-                            <img width={10} src={""} className=""/>
+                            <div className='template-conntec'>
+                                <img width={100} src={Conntec} className="icon-conntec"/>  
+                                <img width={170} src={Celular} className="template-celular"/>
+                                <p>Veja Informações Sobre sua Etec.</p>
+                            </div>
                         </div>  
                         <div className='info-box-right inline'>
 
@@ -95,6 +103,7 @@ export default function Inicio(){
                         <div className='list'>
                             <h1>Calendario</h1>
                             <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
+                            
                         </div>
                     </div>
                     <div className='explication-project'>
