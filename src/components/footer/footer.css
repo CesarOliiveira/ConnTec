@@ -1,7 +1,7 @@
 
 
 .ft-main{
-    height: 19.5rem;
+    height: 13.5rem;
     background-color: #a32331;
     padding-top: 0.5rem;
     align-items: center;
@@ -31,11 +31,11 @@
 
 }
 .ft-img{
-    border-radius: 46%;
+    border-radius: 50%;
     align-items: center;
     justify-content: center;
     background-color: gray;
-    height: 60px;
+    height: 70px;
     width: 70px;
     flex-direction: row;
     margin: 0rem 1rem;
@@ -46,7 +46,7 @@
     justify-content: center;
     width: 150px;
     height: 100%;
-    background-color: #fff;
+    
     margin: 0rem 2rem;
     flex-direction: row;
     display: flex;
@@ -70,7 +70,7 @@
 
 }
 .ft-colum ul li a{
-    color: #222;
+    color: rgb(255, 251, 251);
 }
 
 .ft-colum ul li a:hover{
@@ -79,7 +79,7 @@
 
 
 .ft-link{
-    color: #222;
+    color: rgb(88, 88, 88);
     font-size: 1rem;
 }
 .ft-link li{
@@ -99,3 +99,25 @@
 .ft-center-copyright p {
     color: rgb(88, 87, 87);
 } 
+
+.icon{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+.container-footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: #002b46;
+}
+.ft-icons {
+    display: flex;
+    width: 1090;
+    margin: 0 auto;
+}
+
+.logo-footer {
+    margin-right: 220px;
+}
+

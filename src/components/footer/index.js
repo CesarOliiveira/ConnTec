@@ -1,21 +1,30 @@
 import React from 'react';
 import './footer.css'
 
+import GitHub from './../../img/github.png';
+import Logo from './../../img/conntec.png'
+
+import { BsWhatsapp } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { BsTwitter } from "react-icons/bs";
+
 //Criando a Parte do Footer/RodaPé do Site
 export default function footer(){
     return(
     <>
-        <footer className = "ft-main">
-                <div className = "ft-box">
+        <div className='container-footer'>
+            <div className = "ft-icons">
                     <div className = "ft-img-box">
                             
                         <div className = "ft-logo">
-                        <p> Imagem </p>
-
+                            <img width={180} src={Logo} className="logo-footer" />
                         </div>
 
                         <div className = "ft-logo">
-                        <p> Imagem </p>
+                            <a href="https://github.com/CesarOliiveira/ConnTec.git">
+                                <img width={48} src={GitHub} className='logo-footer'/>
+                            </a>
                         </div>
 
                     </div>
@@ -23,47 +32,49 @@ export default function footer(){
                     <div className = "ft-img-box">
 
                         <div className = "ft-img">
-                        <p> Icon </p>
+                            <BsWhatsapp className='icon'/> 
                         </div> 
 
                         <div className = "ft-img">
-                        <p> Icon </p>
+                        <p> <BsFacebook className='icon'/> </p>
                         </div> 
 
                         <div className = "ft-img">
-                        <p> Icon </p>
+                            <BsInstagram className='icon'/>
                         </div> 
 
                         <div className = "ft-img">
-                        <p> Icon </p>
+                            <BsTwitter className='icon'/>
                         </div>
 
                     </div>
-                </div>
-
+            </div>
+        </div>
+         <footer className = "ft-main">
+                
                 <div className = "ft-box ft-height">
                     <div className = "ft-colum">
-                        <p>Título1</p>
+                        <p>LINKS</p>
                         <ul className='ft-link'>
-                            <li><a href='#'>link 1</a></li>
-                            <li><a href='#'>link 2</a></li>
-                            <li><a href='#'>link 3</a></li>
+                            <li><a href='#'>Termos de Uso</a></li>
+                            <li><a href='#'> Sobre Nós</a></li>
+                            <li><a href='#'>GitHub</a></li>
                         </ul>
                     </div>
 
                     <div className = "ft-colum">
-                        <p>Título2</p>
+                        <p>AFILIADOS</p>
                         <ul className='ft-link'>
-                            <li><a href='#'> link 4</a></li>
-                            <li><a href='#'> link 5</a></li>
-                            <li><a href='#'> Termos de uso</a></li>
+                            <li><a href='#'> Etec Taboão da Serra</a></li>
+                            <li><a href='#'></a></li>
+                            <li><a href='#'> Centro Paula Souza</a></li>
                         </ul>
                     </div>
 
                     <div className = "ft-colum">
                         <p>Desenvolvido por:</p>
                         <ul className='ft-link'>
-                            <li><a href='#'>Equipe: NomeDaEquipe</a></li>
+                            <li><a href='#'>Equipe: ConnTec</a></li>
                             <li><a href='#'>Em parceria com: Etec <br/>
                             Taboão da Serra - SP</a></li>
                         </ul>

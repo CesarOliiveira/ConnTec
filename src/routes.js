@@ -12,6 +12,7 @@ export default function MainRoutes(){
             <Routes>
                 <Route path="/" element={<Inicio />}/>
                 <Route path="/documento" element={<Documento />}/>
+                <Route path="/Admin" element={<Documento />}/>
                 <Route path="*" element={<Error/>}/>
             </Routes>
       

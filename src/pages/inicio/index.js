@@ -1,10 +1,17 @@
 import React from 'react';
 import Logo from './../../img/conntec.png'
+import Header from '../../components/header/index'
+
 import { DiAndroid } from "react-icons/di";
+import { IoMdNotifications } from "react-icons/io";
+import { FaNewspaper } from "react-icons/fa";
+
+
 import Chat from './../../img/chat-icon.png'
 import Info from './../../img/info.png'
 import Celular from './../../img/celular.png'
 import Conntec from './../../img/conntec.png'
+
 
 import './index.css'
 
@@ -14,6 +21,7 @@ export default function Inicio(){
     
     return(
         <>
+        <Header/>
         {/*Topo da Página */}
             <div className="header-project">
                 <div className='section-project'>
@@ -92,17 +100,23 @@ export default function Inicio(){
 
                     <div className='list-box'>
                         <div className='list'>
-                        <h1>Noticias</h1>
-                        <p>Acesse as noticias da escola para ficar por dentro dos acontecimentos.</p>
+                            <FaNewspaper className='icon-apresentation bk'/>
+                            <h1>Noticias</h1>
+                            <p>Acesse as noticias da escola para ficar por dentro dos acontecimentos.</p>
                         </div>
                         <div className='list'>
-                            <h1>Notificações</h1>
+                            <IoMdNotifications className='icon-apresentation bk' />
+                            <h1>Notificações Rápidas</h1>
                             <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
                             
                         </div>
                         <div className='list'>
-                            <h1>Calendario</h1>
-                            <p>Acompanhe os dias decorridos da Etec, sabendo o dias letivos.</p>
+                            <h1>Informações Centralizadas</h1>
+                            <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
+                        </div>
+                        <div className='list'>
+                            <h1>Notificações</h1>
+                            <p>Receba notificações para saber na hora o que acontece durante o dia.</p>
                             
                         </div>
                     </div>
