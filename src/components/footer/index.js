@@ -18,7 +18,7 @@ export default function footer(){
                     <div className = "ft-img-box">
                             
                         <div className = "ft-logo">
-                            <img width={180} src={Logo} className="logo-footer" />
+                            <img width={150} src={Logo} className="logo-footer" />
                         </div>
 
                         <div className = "ft-logo">

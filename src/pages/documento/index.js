@@ -6,7 +6,27 @@ function Documento(){
     return(
         <>
             <Header/>
-            <h1>Pagina em Desenvolvimento</h1>
+            <main>
+                <div className='wrap-content-documentation'>
+                    <div className='title-documentation'>
+                        <h1>
+                            Documentação
+                        </h1>
+                    </div>
+                    <div class='description-documentation'>
+                        <p>
+                            Em nossa documentação abordaremos nossos Problemas, Objetivos, Solução, Funcionalidaes, Metodos usados para a conclusão do Projeto.
+                        </p>
+                    </div>
+                    <div className="section-button">
+                            <a  className="button-download" href='#'>
+                                <div className="button">
+                                    <span>Download</span>
+                                </div>
+                            </a>
+                    </div>
+                </div>
+            </main>
         </>
     );
 };

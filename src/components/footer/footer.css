@@ -46,12 +46,12 @@
     justify-content: center;
     width: 150px;
     height: 100%;
-    
     margin: 0rem 2rem;
     flex-direction: row;
     display: flex;
 
 }
+
 .ft-height{
     height: 7rem
 }
@@ -118,6 +118,64 @@
 }
 
 .logo-footer {
-    margin-right: 220px;
+    margin-right: 320px;
 }
 
+@media screen and (max-width: 1271px) {
+    .ft-img {
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: gray;
+        height: 52px;
+        width: 52px;
+        flex-direction: row;
+        margin: 0rem 1rem;
+        display: flex; 
+    }
+    .ft-logo {
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 50%;
+        margin: 0rem 1rem;
+        flex-direction: row;
+        display: flex;
+
+    }
+    .logo-footer {
+        margin-right: 220px;
+    }
+    .ft-colum{
+        padding: .3rem 0.5rem;
+        width: 22rem;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0rem 3rem ;
+    }
+
+}
+@media screen and (max-width: 1045px) {
+    .ft-colum{
+        padding: .3rem 0.5rem;
+        width: 22rem;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0rem 1rem ;
+    }
+    .ft-logo {
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        margin: 0rem 0.02rem;
+        flex-direction: row;
+        display: flex;
+
+    }
+    .logo-footer {
+        margin-right: 20px;
+    }
+}
