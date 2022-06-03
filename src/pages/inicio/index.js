@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from './../../img/conntec.png'
 import Header from '../../components/header/index'
+import Footer from '../../components/footer/index'
 
 import { DiAndroid } from "react-icons/di";
 import { IoMdNotifications } from "react-icons/io";
@@ -137,7 +138,7 @@ export default function Inicio(){
                 </div>
             </main>
 
-           
+           <Footer/>
 
 
             

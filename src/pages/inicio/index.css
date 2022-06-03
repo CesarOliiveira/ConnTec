@@ -14,6 +14,9 @@
     height: 80vh;
     position: relative;
 }
+a{
+    text-decoration: none;
+}
 
 
 .header-project .description-project h1 {
