@@ -36,7 +36,7 @@ export default function footer(){
                         </div> 
 
                         <div className = "ft-img">
-                        <p> <BsFacebook className='icon'/> </p>
+                            <BsFacebook className='icon'/>
                         </div> 
 
                         <div className = "ft-img">

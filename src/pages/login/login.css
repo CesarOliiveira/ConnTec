@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto+Slab:wght@100;400&family=Ubuntu&display=swap');
+
+
+/* Caixa da Box */
+.box {
+    border-top: solid 5px orange;
+    box-shadow: rgba(44, 47, 51, 0.685) 4px 5px 5px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+    height: 650px;
+    background: linear-gradient(rgb(61, 60, 60), rgb(3, 3, 3));
+}
+.box h1, .partition {
+    color: white;
+}
+
+/* APIS do Google e Facebook */
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+.media-icon {
+    margin: 29px 29px 10px;
+}
+.face-icon {
+    border-radius: 50%;
+    margin: 5px;
+    width: 52px;
+    height: 52px;
+}
+.google-icon { 
+    width: 62px;
+    height: 62px;
+}
+.or-login {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    justify-content: center;
+}
+.or-login span::after, .or-login span::before {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 120px;
+    margin-top: 10px;
+    right: 50px;
+    background: rgb(255, 255, 255);
+}
+span::after {
+    left: 50px;
+}
+.box .container-form {
+    display: absolute;
+    position: relative;
+    margin: 0 auto;
+    top: 3%;
+    width: 400px;
+    height: 610px;
+}
+
+/* Area do Login */
+
+.container-login {
+    width: 90%;
+    height: 450px;
+    margin: 0 auto;
+}
+input {
+    border-radius: 0px;
+}
+
+.label-float input{
+    width: 100%;
+    padding-top: 5px 5px;
+    display: flex;
+    border: 0;
+    color: white;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    outline: none;
+    margin: 0 auto;
+    min-width: 180px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.label-float input:focus{
+    border-bottom: 2px solid orange;
+}
+.label-float label {
+    color: #5a5a5c;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    margin-top: 29px;
+    font-size: 19px;
+    transition: all .3s ease-out;
+}
+.label-float input:focus + label,
+.label-float input:valid + label {
+    font-size: 15px;
+    left: 0px;
+    margin-top: 3px;
+    color: rgb(255, 255, 255);
+}
+.label-float i {
+    position: relative;
+}
+
+.id-field, 
+.password-field {
+    padding: 0.25rem 0px;
+    width: 100%;
+    height: 55px;
+    background-color: transparent;
+    display: block;
+    border: none;
+    overflow: hidden;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+}
+
+/* Botao de login */
+
+.btn-login {
+    position: relative;
+    top: 2%;
+    width: 100%;
+    height: 40px;
+    background: orange;
+    cursor: pointer;
+}
+.btn-login span{
+    position: relative;
+    left: 44%;
+    top: -75%;
+    z-index: 0;
+    font-size: 16px; 
+    pointer-events: none;
+    color: black;
+    
+}
+.btn-login:hover {
+    width: 100%;
+    height: 40px;
+    background: rgb(223, 145, 2);
+    transition: all .3s ease-out;
+    cursor: pointer;
+}
+
+.button-submit {
+    opacity: 0;
+    cursor: pointer;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.container-login .remember-password {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 5%;
+}
+.container-login .remember-password  a{
+    text-decoration: none;
+    color: #48484b;
+    font-size: 1.00rem;
+    font-weight: 200;
+    font-family: 'Poppins', sans-serif;
+}
