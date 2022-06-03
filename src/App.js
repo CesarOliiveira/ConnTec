@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/header/index'
-import Footer from './components/footer/index'
+
 import {BrowserRouter as Router} from 'react-router-dom';
 
 import Routes from './routes';
@@ -14,7 +13,7 @@ export default function App(){
       <Router>
         <Routes/>
       </Router>
-      <Footer/>
+      
     </>
   )
 }

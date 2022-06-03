@@ -4,6 +4,10 @@
 
 
 /* Caixa da Box */
+.logo-conntec {
+    
+    
+}
 .box {
     border-top: solid 5px orange;
     box-shadow: rgba(44, 47, 51, 0.685) 4px 5px 5px; 
@@ -12,11 +16,20 @@
     width: 450px;
     height: 650px;
     background: linear-gradient(rgb(61, 60, 60), rgb(3, 3, 3));
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 .box h1, .partition {
     color: white;
 }
-
+.main-admin {
+    background:rgb(29, 27, 27);
+    width: 100%;
+    height: 980px;
+    
+}
 /* APIS do Google e Facebook */
 .social-media {
     display: flex;
