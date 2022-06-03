@@ -22,7 +22,7 @@ function Login(){
                     <div className="container-login">
                         <div className="label-float">
                             <input name="user" type="text" maxlength="255" autocomplete="on" data-t="auth-form-password-field" className="id-field" value="" required/>
-                            <label for="id-field">Usuário</label>
+                            <label for="id-field">Usuárioa</label>
                         </div>
                         <div className="label-float">
                             <input name="password" type="password" maxlength="255" autocomplete="on" data-t="auth-form-password-field" className="password-field" value="" required/>
