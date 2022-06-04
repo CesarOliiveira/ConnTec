@@ -71,7 +71,7 @@
 .ft-colum p{
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #005c6e;
+    color: #030303;
 
 }
 .ft-colum ul li a{
@@ -93,11 +93,11 @@
 }
 .site-copyright {
     width: 100%;
-    height: .4rem;
+    height: 45px;
     
 }
 .ft-center-copyright {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     
 }
@@ -134,8 +134,8 @@
         align-items: center;
         justify-content: center;
         background-color: gray;
-        height: 52px;
-        width: 52px;
+        height: 60%;
+        width: 58%;
         flex-direction: row;
         margin: 0rem 0.8rem;
         display: flex; 
@@ -176,29 +176,25 @@
         height: 100%;
         margin: 0rem 1rem ;
     }
-    .ft-logo {
+    .ft-img {
         align-items: center;
         justify-content: center;
-        width: 150px;
-        height: 150px;
-        margin: 0rem 0.02rem;
+        height: 62px;
+        width: 62px;
+        margin: 0rem 0.5em;
         flex-direction: row;
         display: flex;
 
     }
     .logo-footer {
         margin-right: 20px;
+        
     }
 }
-.container-footer {
-    width: 100%;
-    height: 120px;
-    display: flex;
-    background-color: #002b46;
-}
+
 
 @media screen and (max-width: 850px) {
-    .ft-img-box {
+    .ft-img-left, .ft-img-right {
         width: 40%;
     }
     .ft-img {
@@ -230,20 +226,35 @@
     .logo-footer {
         margin-right: 20px;
     }
+    .ft-main {
+        height: 14.5rem;
+    }
 }
 @media screen and (max-width: 808px) {
     .container-footer{
-        height: 220px;
+        height: 170px;
         
     }
-    .ft-img-box {
-        height: 80px;
-        width: 320px;
+    .ft-img {
+        width: 45px;
+        height: 45px;
+    }
+    .ft-img-left {
+        height: 70px;
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+    .ft-img-right {
+        width: 100%;
+        padding: 0 0 35px;
+        margin: 0;
     }
     .ft-icons {
         display: block;
         
     }
+    
     .ft-img {
         width: 45px;
         height: 45px;
@@ -272,6 +283,18 @@
     }
     .logo-footer {
         margin-right: 20px;
+    }
+    .ft-main {
+        height: 15.5rem;
+    }
+    .site-copyright {
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width: 660px) {
+    
+    .ft-colum .mobile {
+        width: 450px;
     }
 }
 

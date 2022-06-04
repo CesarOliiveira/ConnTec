@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css'
 
-import GitHub from './../../img/github.png';
+
 import Logo from './../../img/conntec.png'
 
 import { BsWhatsapp } from "react-icons/bs";
@@ -19,12 +19,6 @@ export default function footer(){
                             
                         <div className = "ft-logo">
                             <img width={150} src={Logo} className="logo-footer" />
-                        </div>
-
-                        <div className = "ft-logo">
-                            <a href="https://github.com/CesarOliiveira/ConnTec.git">
-                                <img width={48} src={GitHub} className='logo-footer'/>
-                            </a>
                         </div>
 
                     </div>
@@ -70,9 +64,9 @@ export default function footer(){
                         </ul>
                     </div>
 
-                    <div className = "ft-colum">
+                    <div className = "ft-colum mobile">
                         <p>Desenvolvido por:</p>
-                        <ul className='ft-link'>
+                        <ul className='ft-link '>
                             <li><a href='#'>Equipe: ConnTec</a></li>
                             <li><a href='#'>Em parceria com: Etec <br/>
                             Taboão da Serra - SP</a></li>
