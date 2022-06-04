@@ -15,7 +15,7 @@ export default function footer(){
     <>
         <div className='container-footer'>
             <div className = "ft-icons">
-                    <div className = "ft-img-box">
+                    <div className = "ft-img-left">
                             
                         <div className = "ft-logo">
                             <img width={150} src={Logo} className="logo-footer" />
@@ -29,7 +29,7 @@ export default function footer(){
 
                     </div>
 
-                    <div className = "ft-img-box">
+                    <div className = "ft-img-right">
 
                         <div className = "ft-img">
                             <BsWhatsapp className='icon'/> 
@@ -51,7 +51,6 @@ export default function footer(){
             </div>
         </div>
          <footer className = "ft-main">
-                
                 <div className = "ft-box ft-height">
                     <div className = "ft-colum">
                         <p>LINKS</p>

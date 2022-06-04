@@ -136,7 +136,8 @@ header .logo-site {
     #btn-hamburguer {
         display: block;
         position: relative;
-        left: 200px;
+        justify-content: right;
+
     }
     header {
         height: 75px;
@@ -153,18 +154,13 @@ header .logo-site {
     }
 }
 @media screen and (max-width: 816px) {
-    #btn-hamburguer {
-        display: absolute;
-        position: relative;
-        
-        
-    }
     header {
         height: 75px;
     }
     .logo-site {
         top: 5px;
         left: 2px;
+        
     }
     .hdbox {
         width: 1000px;
@@ -184,7 +180,7 @@ header .logo-site {
         height: 75px;
     }
     .logo-site {
-        top: 5px;
+        top: 6px;
         left: 17px;
     }
     .hdbox {

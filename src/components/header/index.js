@@ -12,7 +12,7 @@ export default function header(){
             <div className="hdbox">
                 <div className='logo-site'>
                     <a href="/">
-                         <img width={200}  src={Logo}></img>
+                         <img width={170}  src={Logo}></img>
                      </a>
                 </div>
                 <a href="siteTCC.html" className="logo"></a> 
@@ -25,8 +25,9 @@ export default function header(){
                         <li className="nav-item"><a href="https://www.cps.sp.gov.br/">CENTRO PAULA SOUZA</a></li>
                     </ul>
                 </nav> 
-                <button id="btn-hamburguer">Menu</button>
+                
             </div>
+            <button id="btn-hamburguer">Menu</button>
         </header>
         
     </>

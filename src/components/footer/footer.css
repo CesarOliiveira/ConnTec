@@ -20,7 +20,7 @@
     width: 100%;
     
 }
-.ft-img-box{
+.ft-img-right, .ft-img-left{
     padding: .3rem 0.5rem;
     width: 40%;
     align-items: center;
@@ -44,13 +44,17 @@
 }
 .ft-logo{
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     width: 150px;
     height: 100%;
     margin: 0rem 2rem;
     flex-direction: row;
     display: flex;
-
+}
+.ft-img-left{
+    align-items: center;
+    justify-content: left;
+    
 }
 
 .ft-height{
@@ -114,13 +118,15 @@
 }
 .ft-icons {
     display: flex;
-    width: 1090;
+    width: 80%;
+    height: 120px;
     margin: 0 auto;
 }
-
 .logo-footer {
-    margin-right: 320px;
+
+    justify-content: left;
 }
+
 
 @media screen and (max-width: 1271px) {
     .ft-img {
@@ -131,7 +137,7 @@
         height: 52px;
         width: 52px;
         flex-direction: row;
-        margin: 0rem 1rem;
+        margin: 0rem 0.8rem;
         display: flex; 
     }
     .ft-logo {
@@ -144,6 +150,10 @@
         display: flex;
 
     }
+    .ft-img-box {
+        justify-content: left;
+    }
+    
     .logo-footer {
         margin-right: 220px;
     }
@@ -180,3 +190,88 @@
         margin-right: 20px;
     }
 }
+.container-footer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: #002b46;
+}
+
+@media screen and (max-width: 850px) {
+    .ft-img-box {
+        width: 40%;
+    }
+    .ft-img {
+        width: 45px;
+        height: 45px;
+    }
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+    .ft-colum{
+        padding: .3rem 0.5rem;
+        width: 22rem;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0rem 1rem ;
+    }
+    .ft-logo {
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        margin: 0rem 0.02rem;
+        flex-direction: row;
+        display: flex;
+
+    }
+    .logo-footer {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 808px) {
+    .container-footer{
+        height: 220px;
+        
+    }
+    .ft-img-box {
+        height: 80px;
+        width: 320px;
+    }
+    .ft-icons {
+        display: block;
+        
+    }
+    .ft-img {
+        width: 45px;
+        height: 45px;
+    }
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+    .ft-colum{
+        padding: .3rem 0.5rem;
+        width: 22rem;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        margin: 0rem 1rem ;
+    }
+    .ft-logo {
+        align-items: center;
+        justify-content: center;
+        width: 150px;
+        height: 150px;
+        margin: 0rem 0.02rem;
+        flex-direction: row;
+        display: flex;
+
+    }
+    .logo-footer {
+        margin-right: 20px;
+    }
+}
+
