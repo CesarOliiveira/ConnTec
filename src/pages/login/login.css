@@ -23,7 +23,7 @@
 }
 .main-admin {
     background:rgb(29, 27, 27);
-    width: 100%;
+    width: 100% !important;
     height: 980px;
     
 }

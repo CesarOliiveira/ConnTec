@@ -3,7 +3,7 @@ main {
     height: 473px;
 }
 .wrap-content-documentation {
-    width: 1080px;
+    width: 70%;
     height: 420px;
     box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
     margin: 0 auto;
@@ -30,5 +30,6 @@ main {
 }
 .description-documentation p{
     color: #666;
+    text-align: justify;
     font: normal normal 1.025rem Verdana;
 }
