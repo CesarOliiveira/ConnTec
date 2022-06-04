@@ -11,7 +11,7 @@ import {IoMdExit} from 'react-icons/io';
 export default function MenuPainel() {
     return(
        <>
-            <header>
+            <header className='header-painel'>
                 <div className="hdbox">
                     <h2>Painel</h2>
                     <a href="siteTCC.html" className="logo"> ConnTec</a> 
