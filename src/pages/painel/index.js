@@ -68,16 +68,20 @@ export default function Painel() {
                 </div>
                 <div className='content-box-options'>
                     <h1 style={{color: 'black', marginBottom: '12px', fontWeight: 600}}>Titulo para Postagem:</h1>
+
                     <input 
                     type='text' 
-                    placeholder='Titulo da Postagem.' 
+                    placeholder='Titulo da Postagem.'
+                    className='pn-input-title' 
                     style={{
                         width: '700px',
                         height: '40px',
                         borderRadius: '5px',
                         marginBottom: '30px',
                     }}/>
+
                     <h1 style={{color: 'black', marginBottom: '12px', fontWeight: 600}}>Conteudo da Postagem:</h1>
+
                     <Editor
                         onInit={(evt, editor) => editorRef.current = editor}
                         initialValue="<p>This is the initial content of the editor.</p>"
@@ -99,7 +103,8 @@ export default function Painel() {
                         }}
                         className='editor-tiny'
                     />
-                    <button onClick={log}>Enviar</button>
+                    <button onClick={log} className='pn-button-enviar' style={{display: 'flex', justifyContent: 'right'}}>Enviar</button>
+                    
 
                     <br/>
 
