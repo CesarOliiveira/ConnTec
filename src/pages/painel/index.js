@@ -9,10 +9,11 @@ import {TiEdit} from 'react-icons/ti';
 import {FaUserAlt} from 'react-icons/fa';
 import {FaPaste} from 'react-icons/fa';
 import {IoMdExit} from 'react-icons/io';
-import { toBePartiallyChecked } from '@testing-library/jest-dom/dist/matchers';
+
 
 export default function Painel() {
     const editorRef = useRef(null);
+
     const log = () => {
         if (editorRef.current) {
             console.log(editorRef.current.getContent());
@@ -66,7 +67,8 @@ export default function Painel() {
                         </ul>
                     </div>
                 </div>
-                <div className='content-box-options'>
+            </div>
+            <div className='content-box-options'>
                     <h1 style={{color: 'black', marginBottom: '12px', fontWeight: 600}}>Titulo para Postagem:</h1>
 
                     <input 
@@ -74,7 +76,7 @@ export default function Painel() {
                     placeholder='Titulo da Postagem.'
                     className='pn-input-title' 
                     style={{
-                        width: '700px',
+                        width: '44%',
                         height: '40px',
                         borderRadius: '5px',
                         marginBottom: '30px',
@@ -103,7 +105,6 @@ export default function Painel() {
                         }}
                         className='editor-tiny'
                     />
-                    <button onClick={log} className='pn-button-enviar' style={{display: 'flex', justifyContent: 'right'}}>Enviar</button>
                     
 
                     <br/>
@@ -115,8 +116,13 @@ export default function Painel() {
                         <option value="">Gremio</option>
                         <option value="">Monitoria</option>
                     </select>   
+                    <div className='pn-container-footer'>
+                        <button onClick={log} className='pn-button-enviar' style={{display: 'flex', justifyContent: 'center' }}>Enviar</button>
+                    </div>
                 </div>
-            </div>
+                <footer className='pn-footer'>
+
+                </footer>
        </> 
     );
 };
