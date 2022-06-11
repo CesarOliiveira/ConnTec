@@ -1,0 +1,128 @@
+.container{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    padding:1rem;
+    
+}
+.column{
+    flex-direction: column;
+}
+.between{
+    margin: 0rem;
+    padding:0rem;
+    width:100%
+}
+/* Sobre os Devs */
+.title-box h1{
+    font: normal bold 2.5rem "Rebot Slab";
+    color: darkred;
+}
+.content-left{
+    flex: .8;
+    justify-content: left;
+    text-align: right;
+}
+.content-right{
+    flex: .8;
+    justify-content: right;
+}
+
+.content-box{
+    flex-direction: row;
+    display: flex;
+}
+.img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    background-color: #ddd;
+    align-self: center;
+    cursor: pointer;
+}
+/* Adicionar imagem e animação no hover */
+
+.dev-info{
+    flex-direction: column;
+    display: flex;
+    padding: 1rem;
+    justify-content:center;
+    font: normal normal 1.1rem "Verdana";
+    width: 370px;
+ 
+}
+.dev-info h1{
+    font: normal normal 1.6rem "Rebot Slab"
+}
+.dev-info ul li{
+    display:block;
+    margin: 0.5rem 0rem
+    
+}
+.dev-info ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #222;
+}
+.dev-info ul li a:hover{
+    color: #522
+}
+
+#hidden-info{
+    display:none;
+}
+
+
+.mini-icon{
+background-color: #DDD;
+border-radius: 10%;
+width:35px;
+height:35px;
+margin-right: 1rem;
+position:relative;
+display: inline-block
+}
+
+/* Mostrar as informações escondidas e deixar suave*/
+.img:hover ~ .dev-info #hidden-info{
+    display: block;
+}
+/* Checkbox Para fazer o texto aparecer quando clicar na imagem */
+#cb-show{
+    display: none;
+}
+#cb-show:checked ~ .dev-info #hidden-info {
+    display: block;
+}
+
+
+/* Sobre o aplicativo */
+
+.img-box{
+    flex:1.35;
+    background-color: #DDD;
+    display:flex;
+    height:20rem;
+}
+.description-box{
+    display:flex;
+    flex:1;
+    padding: 1rem 5rem;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    text-align: center;
+    height:20rem;
+
+}
+.description-box h1{
+    font: normal bold 1.75rem "Verdana";
+    margin-bottom: 1rem;
+}
+.description-box p{
+    font: normal 1.2rem "Verdana";
+    position: relative;
+    line-height: 1.5rem;
+}

@@ -20,7 +20,7 @@ export default function header(){
                     <ul className="nav-links">
                         <li className="nav-item"><a href="/">HOME</a></li>
                         <li className="nav-item"><a href="/documento">DOCUMENTAÇÃO</a></li>
-                        <li className="nav-item"><a href="#">SOBRE NÓS</a></li>
+                        <li className="nav-item"><a href="/sobrenos">SOBRE NÓS</a></li>
                         <li className="nav-item"><a href="https://etects.com.br/">ETEC TABOÃO</a></li>
                         <li className="nav-item"><a href="https://www.cps.sp.gov.br/">CENTRO PAULA SOUZA</a></li>
                     </ul>
