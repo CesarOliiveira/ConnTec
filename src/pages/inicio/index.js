@@ -1,17 +1,17 @@
 import React from 'react';
-import Logo from './../../img/conntec.png'
-import Header from '../../components/header/index'
-import Footer from '../../components/footer/index'
+
+import Header from '../../components/header/index';
+import Footer from '../../components/footer/index';
 
 import { DiAndroid } from "react-icons/di";
 import { IoMdNotifications } from "react-icons/io";
 import { FaNewspaper } from "react-icons/fa";
 
 
-import Chat from './../../img/chat-icon.png'
-import Info from './../../img/info.png'
-import Celular from './../../img/celular.png'
-import Conntec from './../../img/conntec.png'
+import Chat from './../../img/chat-icon.png';
+import Info from './../../img/info.png';
+import Celular from './../../img/celular.png';
+import Conntec from './../../img/conntec.png';
 
 
 import './index.css'
@@ -26,7 +26,9 @@ export default function Inicio(){
         {/*Topo da Página */}
             <div className="header-project">
                 <div className='section-project'>
+                
                     <div className="description-project">
+                    
                         <h1>Informações e Noticias da Etec</h1>
                         <h2>Para Alunos</h2>
                     
@@ -39,6 +41,7 @@ export default function Inicio(){
                                 </div>
                             </a>
                         </div>
+
                     </div>
                         {/*Botão de Download */}
                     
@@ -47,6 +50,7 @@ export default function Inicio(){
 
             {/* Conteudo do Projeto */}
             <main id="main-index">
+        
                 <div className='wrap-content-info'>
                     {/* Caixa de Informação 1 */}
                     <div className='box-apresentation'>
@@ -72,18 +76,7 @@ export default function Inicio(){
 
                         {/* Caixa de Informação 2 */}
                     <div className='box-apresentation'>
-                        <div className='context-box-right'>
-                            <h1>
-
-                            Acesso a informações
-
-                            </h1>
-                            
-
-                            <img width={60} src={Info} className="icon-info"/>
-                            
-                            
-                        </div>
+                       
                         <div className='demonstration-image inline '>
                             <div className='template-conntec'>
                                 <img width={100} src={Conntec} className="icon-conntec"/>  
@@ -92,7 +85,13 @@ export default function Inicio(){
                             </div>
                         </div>  
                         <div className='info-box-right inline'>
+                            <img width={60} src={Info} className="icon-info"/>
+                            <h1>
 
+                                Acesso a informações
+
+                            </h1>
+                            
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                         </div>
