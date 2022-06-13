@@ -33,6 +33,7 @@
 .content-box{
     flex-direction: row;
     display: flex;
+    align-items: center;
 }
 .img{
     border-radius: 50%;
@@ -72,6 +73,8 @@
 
 #hidden-info{
     display:none;
+    transition-property: all;
+    transition-duration: 2s;
 }
 
 
@@ -86,14 +89,17 @@ display: inline-block
 }
 
 /* Mostrar as informações escondidas e deixar suave*/
-.img:hover ~ .dev-info #hidden-info{
-    display: block;
+.img:hover{
+transform: scale(1.3) ;
+transition-duration: .5s;
+transition-timing-function: ease;
+margin:1.5rem
 }
 /* Checkbox Para fazer o texto aparecer quando clicar na imagem */
 #cb-show{
     display: none;
 }
-#cb-show:checked ~ .dev-info #hidden-info {
+#cb-show:checked ~ .dev-info > #hidden-info {
     display: block;
 }
 
@@ -115,7 +121,6 @@ display: inline-block
     justify-content: center;
     text-align: center;
     height:20rem;
-
 }
 .description-box h1{
     font: normal bold 1.75rem "Verdana";

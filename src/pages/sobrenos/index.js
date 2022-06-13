@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/header/index'
 import Footer from '../../components/footer/index'
 import './sobrenos.css'
+import './gambiarra.css'
 // Página da Documentação do TCC - ConnTec
 function Sobrenos(){
     return(
@@ -35,30 +36,31 @@ function Sobrenos(){
 
                 <div className="container between">
                     <div className = "content-box content-left">
+                        <input type= "checkbox" id="cb-show2"/>
+
                         <div className="dev-info">
                             <h1>Ana Paula Rocha de Souza </h1> <p>Parte Desenvolvida</p>
-                            <div id = "hidden-info">
+                            <div id = "hidden-info2">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> LinkedIn <div className="mini-icon"/></a><br/></li>
+                                    <li> <a href="#"> GitHub <div className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <input type= "checkbox" id="cb-show"/>
-                        <label htmlFor="cb-show"><div className = "img"/></label> 
+                        <label htmlFor="cb-show2"><div className = "img"/></label> 
                     </div>
                 </div>
 
                 <div className="container between">
                     <div className = "content-box content-right">
-                        <input type= "checkbox" id="cb-show"/>
-                        <label htmlFor="cb-show"><div className = "img"/></label> 
+                        <input type= "checkbox" id="cb-show3"/>
+                        <label htmlFor="cb-show3"><div className = "img"/></label> 
 
                         <div className="dev-info">
                             <h1>Cezar Adriano </h1> <p>Parte Desenvolvida</p>
-                            <div id = "hidden-info">
+                            <div id = "hidden-info3">
                                 <ul>
                                     <li>Informações Extras</li>
                                     <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
@@ -71,19 +73,20 @@ function Sobrenos(){
 
                 <div className="container between">
                     <div className = "content-box content-left">
+                        <input type= "checkbox" id="cb-show4"/>
                         <div className="dev-info">
                             <h1>Gizele Cristina </h1> <p>Parte Desenvolvida</p>
-                            <div id = "hidden-info">
+                            <div id = "hidden-info4">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#">LinkedIn <div className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="#">GitHub <div className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
 
-                        <input type= "checkbox" id="cb-show"/>
-                        <label htmlFor="cb-show"><div className = "img"/></label> 
+                       
+                        <label htmlFor="cb-show4"><div className = "img"/></label> 
                     </div>
                 </div>
 

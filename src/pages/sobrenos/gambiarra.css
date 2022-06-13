@@ -1,0 +1,32 @@
+/* Isso é uma gambiarra que eu não sei como consertar agr!!! */
+/* Se eu não conseguir consertar no futuro também, vou migrar o conteúdo desse arquivo pro css principal */
+#hidden-info2{
+    display: none;
+}
+#hidden-info3{
+    display: none;
+}
+#hidden-info4{
+    display: none;
+}
+
+#cb-show2{
+    display: none;
+}
+#cb-show2:checked + .dev-info #hidden-info2 {
+    display: block;
+}
+
+#cb-show3{
+    display: none;
+}
+#cb-show3:checked ~ .dev-info #hidden-info3 {
+    display: block;
+}
+
+#cb-show4{
+    display: none;
+}
+#cb-show4:checked + .dev-info #hidden-info4 {
+    display: block;
+}
