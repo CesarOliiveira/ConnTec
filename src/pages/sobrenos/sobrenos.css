@@ -99,7 +99,7 @@ margin:1.5rem
 #cb-show{
     display: none;
 }
-#cb-show:checked ~ .dev-info > #hidden-info {
+#cb-show:checked + .dev-info > #hidden-info {
     display: block;
 }
 
