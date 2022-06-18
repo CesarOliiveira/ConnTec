@@ -79,13 +79,12 @@
 
 
 .mini-icon{
-background-color: #DDD;
 border-radius: 10%;
 width:35px;
 height:35px;
-margin-right: 1rem;
+margin: 0rem 1rem;
 position:relative;
-display: inline-block
+display: inline-block;
 }
 
 /* Mostrar as informações escondidas e deixar suave*/

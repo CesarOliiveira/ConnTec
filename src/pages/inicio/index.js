@@ -56,28 +56,24 @@ export default function Inicio(){
                     <div className='box-apresentation'>
                         <div className='context-box'>
                             <h1>
-
                                 Comunicação Etec e Aluno
-
                             </h1>
                             <div className='image-box'>
 
-                            <img width={60} src={Chat} className="icon-chat"/>
+                                <img width={60} src={Chat} className="icon-chat"/>
 
                             </div>
                         </div>
 
                         <div className='info-box'>
-
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
                         </div>
                     </div>
 
                         {/* Caixa de Informação 2 */}
                     <div className='box-apresentation'>
                        
-                        <div className='demonstration-image inline '>
+                        <div className='demonstration-image'>
                             <div className='template-conntec'>
                                 <img width={100} src={Conntec} className="icon-conntec"/>  
                                 <img width={170} src={Celular} className="template-celular"/>

@@ -2,6 +2,8 @@ import React from 'react';
 import Logo from './../../img/conntec.png';
 import {Link} from 'react-router-dom';
 
+import Menu from '../../img/menu.png'
+
 import './header.css';
 
 //Criando o Header do site
@@ -15,6 +17,7 @@ export default function header(){
                          <img width={170}  src={Logo}></img>
                      </a>
                 </div>
+                
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
                     <ul className="nav-links">
@@ -27,7 +30,8 @@ export default function header(){
                 </nav> 
                 
             </div>
-            <button id="btn-hamburguer">Menu</button>
+            <div id="btn-hamburguer"><img width={30} src={Menu}/></div>
+        
         </header>
         
     </>

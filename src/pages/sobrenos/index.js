@@ -3,10 +3,14 @@ import Header from '../../components/header/index'
 import Footer from '../../components/footer/index'
 import './sobrenos.css'
 import './gambiarra.css'
+
+import gitHub from '../../img/github.png'
+import linkedin from '../../img/linkedin.png'
 // Página da Documentação do TCC - ConnTec
 function Sobrenos(){
     return(
         <>
+        <Header/>
             {/* Informações do Grupo */}
             <div className="container">
                 <div className = "title-box">
@@ -26,8 +30,8 @@ function Sobrenos(){
                             <div id = "hidden-info">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> <img src={linkedin} className="mini-icon"/> LinkedIn</a><br/></li>
+                                    <li> <a href="https://github.com/Napaula019"> <img src={gitHub} className="mini-icon"/> GitHub</a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -43,8 +47,8 @@ function Sobrenos(){
                             <div id = "hidden-info2">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> LinkedIn <div className="mini-icon"/></a><br/></li>
-                                    <li> <a href="#"> GitHub <div className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="#"> LinkedIn <img src={linkedin} className="mini-icon"/></a><br/></li>
+                                    <li> <a href="https://github.com/cauacruz17"> GitHub <img src={gitHub} className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -63,8 +67,8 @@ function Sobrenos(){
                             <div id = "hidden-info3">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> <img src={linkedin} className="mini-icon"/> LinkedIn</a><br/></li>
+                                    <li> <a href="https://github.com/CesarOliiveira"> <img src={gitHub} className="mini-icon"/> GitHub</a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -79,8 +83,8 @@ function Sobrenos(){
                             <div id = "hidden-info4">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#">LinkedIn <div className="mini-icon"/> </a><br/></li>
-                                    <li> <a href="#">GitHub <div className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="#">LinkedIn <img src={linkedin} className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="https://github.com/Dyas15">GitHub <img src={gitHub} className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -99,8 +103,8 @@ function Sobrenos(){
                             <div id = "hidden-info5">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> <img src={linkedin} className="mini-icon"/> LinkedIn</a><br/></li>
+                                    <li> <a href="https://github.com/Diogo-gallina"> <img src={gitHub} className="mini-icon"/> GitHub</a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -116,8 +120,8 @@ function Sobrenos(){
                             <div id = "hidden-info6">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> LinkedIn <div className="mini-icon"/></a><br/></li>
-                                    <li> <a href="#"> GitHub <div className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="#"> LinkedIn <img src={linkedin} className="mini-icon"/></a><br/></li>
+                                    <li> <a href="https://github.com/Eriklux"> GitHub <img src={gitHub} className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -135,8 +139,8 @@ function Sobrenos(){
                             <div id = "hidden-info7">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> <img src={linkedin} className="mini-icon"/> LinkedIn</a><br/></li>
+                                    <li> <a href="https://github.com/GiseleCristina22"> <img src={gitHub} className="mini-icon"/> GitHub</a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -152,8 +156,8 @@ function Sobrenos(){
                             <div id = "hidden-info8">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> LinkedIn <div className="mini-icon"/></a><br/></li>
-                                    <li> <a href="#"> GitHub <div className="mini-icon"/> </a><br/></li>
+                                    <li> <a href="#"> LinkedIn <img src={linkedin} className="mini-icon"/></a><br/></li>
+                                    <li> <a href="https://github.com/PauloCezarSR"> GitHub <img src={gitHub} className="mini-icon"/> </a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -171,8 +175,8 @@ function Sobrenos(){
                             <div id = "hidden-info9">
                                 <ul>
                                     <li>Informações Extras</li>
-                                    <li> <a href="#"> <div className="mini-icon"/> LinkedIn</a><br/></li>
-                                    <li> <a href="#"> <div className="mini-icon"/> GitHub</a><br/></li>
+                                    <li> <a href="#"> <img src={linkedin} className="mini-icon"/> LinkedIn</a><br/></li>
+                                    <li> <a href="https://github.com/William-Vinicius"> <img src={gitHub} className="mini-icon"/> GitHub</a><br/></li>
                                 </ul>
                             </div>
                         </div>
@@ -203,7 +207,7 @@ function Sobrenos(){
                 </div>
             </div>
 
-
+            <Footer/>
         </>
     );
 };
