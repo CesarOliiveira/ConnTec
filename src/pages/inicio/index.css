@@ -97,12 +97,12 @@ a{
 
 /* Main principal */
 #main-index {
-    width: 100%;
+    width: 90%;
     height: 1800px;
     position: relative;
 }
 .wrap-content-info {
-    width: 100%;
+    width: 90%;
     max-width: 1080px;
 
     margin: 0 auto;
@@ -111,7 +111,7 @@ a{
 /* Caixa de Apresentação 1 */
 .box-apresentation {
 
-    width: 100%;
+    width: 90%;
 
     max-width: 1080px;
     height: 380px;
@@ -189,7 +189,7 @@ a{
 }
     /* Segunda Caixa de Informação  */
 #main-index .info-box-right .context-box-right{
-        width: 100%;
+        
         display: flex;
         position: relative;
         justify-content: right;
@@ -211,7 +211,7 @@ a{
         
 .info-box-right {
         
-            width: 100%;
+            width: 92%;
             max-width: 500px;
         
             height: 100%;
@@ -241,7 +241,7 @@ a{
         width: 560px;
         height: 100%;
         display: flex;
-        flex-direction: column;
+        
 }
 .box-apresentation .info-box-right .icon-info {
         position: absolute;
@@ -306,7 +306,7 @@ a{
 
 /* Descrições de Funções do Aplicativo */
 .list-box {
-    width: 100%;
+    width: 120%;
     max-width: 1080px;
     height: auto;
     margin: 0 auto;
@@ -401,7 +401,7 @@ a{
     
     .box-apresentation .info-box-right {
         position: absolute;
-        right: 4px;
+        right: -20%;
     }  
 }
 
@@ -410,11 +410,11 @@ a{
         font: normal normal 0.87rem Verdana;
     }
     .box-apresentation .info-box-right h1, .box-apresentation .info-box h1 {
-        font: normal normal 1.45rem Verdana;
+        font: normal normal 1.25rem Verdana;
     }
     .box-apresentation .info-box-right {
         position: relative;
-        right: -20%;
+        
     }  
     .template-conntec {
         margin: 0 auto;

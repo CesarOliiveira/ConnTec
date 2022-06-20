@@ -30,7 +30,7 @@ export default function header(){
                 </nav> 
                 
             </div>
-            <div id="btn-hamburguer"><img width={30} src={Menu}/></div>
+            <div id="btn-hamburguer"><img width={28} src={Menu}/></div>
         
         </header>
         
