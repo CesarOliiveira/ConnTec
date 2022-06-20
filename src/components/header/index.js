@@ -35,7 +35,11 @@ export default function header(){
                 </nav> 
                 
             </div>
+<<<<<<< HEAD
             
+=======
+            <div id="btn-hamburguer"><img width={28} src={Menu}/></div>
+>>>>>>> 708a13a30dc8557db32ea102416b284f2f30e210
         
         </header>
         

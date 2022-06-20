@@ -73,7 +73,7 @@ export default function Inicio(){
                         {/* Caixa de Informação 2 */}
                     <div className='box-apresentation'>
                        
-                        <div className='demonstration-image'>
+                        <div className='demonstration-image inline'>
                             <div className='template-conntec'>
                                 <img width={100} src={Conntec} className="icon-conntec"/>  
                                 <img width={170} src={Celular} className="template-celular"/>
