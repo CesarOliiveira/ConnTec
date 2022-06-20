@@ -39,7 +39,7 @@ header {
 .hdbox {
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 1470px;
     height: 100%;
@@ -51,15 +51,12 @@ header {
 
 header .logo-site {
     display: flex;
-    position: relative;
     font-weight: 700;
     color: var(--colorOne);
     text-decoration: none;
     font-size: 2em;
     letter-spacing: 2px;
     transition: 0.6s;
-    right: 17%;
-    top: -2px;
 }
 
 
@@ -69,13 +66,14 @@ header .logo-site {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 420px;
+    width: 80%;
+    flex: .8;
 }
+
 .nav-main ul {
-    position: absolute;
     display: flex;
     justify-content: center;
-    height: 95px;
+     height: 100%;
 }
 
 .nav-main i {
@@ -89,7 +87,7 @@ header .logo-site {
     justify-content: center;
     align-items: center;
     list-style: none;
-    right: 0%;
+    text-align: center;
 }
 .nav-main ul li a {
     position: relative;
@@ -135,7 +133,7 @@ header .logo-site {
         right: 10%;
     }
 }
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 820px) {
     #btn-hamburguer {
         display: block;
         position: relative;
@@ -150,13 +148,13 @@ header .logo-site {
         left: 2px;
     }
     .hdbox {
-        width: 1000px;
+        width: 60%;
     }
     .nav-main {
        display: none;
     }
 }
-@media screen and (max-width: 816px) {
+@media screen and (max-width: 820px) {
     header {
         height: 75px;
     }
@@ -166,10 +164,40 @@ header .logo-site {
         
     }
     .hdbox {
-        width: 1000px;
+        width: 60%;
+        justify-content: space-around;
     }
     .nav-main {
-       display: none;
+        right: -1000px;
+        display:block;
+        height: 400px;
+        width: 100%;
+        z-index: 5;
+        position: absolute;
+        top: 75px;
+        background-color: #33333355;
+    }
+    .nav-main ul{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        top:0;
+        font-size: 1.5rem;
+        justify-content: space-around;
+    }
+    .nav-main ul li{
+        flex:.16;
+        background-color: whitesmoke;
+        width: 90%;
+        right:0;
+    }
+   
+    #cb-menu:checked ~ .nav-main{
+        transform: translateX(-1000px);
+        transition-duration: .5s;
+        transition-timing-function: ease;
+        
     }
 }
 @media screen and (max-width: 656px) {
@@ -188,14 +216,40 @@ header .logo-site {
     }
     .hdbox {
         display: flex;
-        width: 210px;
+        width: 90%
     }
+
+    /* config do menu retratil */
     .nav-main {
-       display: none;
+        top: -1000px;
+        display:block;
+        height: 400px;
+        width: 100%;
+        z-index: 5;
+        position: absolute;
+        right:0;
+        background-color: #33333355;
+    }
+    .nav-main ul{
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        height: 100%;
+        top:0;
+        font-size: 1.2rem;
+        justify-content: space-around;
+    }
+    .nav-main ul li{
+        flex:.16;
+        background-color: whitesmoke;
+        width: 90%;
+        right:0;
     }
    
     #cb-menu:checked ~ .nav-main{
-        display: flex;
-        flex-direction: column;
+        transform: translateY(1075px);
+        transition-duration: .5s;
+        transition-timing-function: ease;
+        
     }
 }

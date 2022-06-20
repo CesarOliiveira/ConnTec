@@ -24,14 +24,14 @@ function Sobrenos(){
                     <div className = "img-box">
                         {/* Imagem ilustrativa */}
                     </div>
-                    <div className ="description-box">
+                    <div className ="desc-box">
                         <h1> Por que utilizar o Conntec?</h1>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
                 </div>
 
                 <div className = "container between">
-                    <div className ="description-box">
+                    <div className ="desc-box">
                         <h1> Por que desenvolvemos o Conntec?</h1>
                         <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     </div>
