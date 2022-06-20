@@ -18,20 +18,21 @@
 /* Sobre os Devs */
 .title-box h1{
     font: normal bold 2.5rem "Rebot Slab";
-    color: darkred;
+    color: #a1100e;
 }
 .content-left{
     flex: .8;
     justify-content: left;
     text-align: right;
+    flex-direction: row-reverse;
 }
 .content-right{
     flex: .8;
     justify-content: right;
+    flex-direction: row;
 }
 
 .content-box{
-    flex-direction: row;
     display: flex;
     align-items: center;
 }
@@ -129,4 +130,40 @@ margin:1.5rem
     font: normal 1.2rem "Verdana";
     position: relative;
     line-height: 1.5rem;
+}
+
+@media screen and (max-width: 656px){
+    .container{
+        padding: 1rem 0rem
+    }
+    .title-box h1{
+        text-align: center;
+    }
+    .description-box{
+        width: 100%;
+        padding: 0.5rem;
+        flex-direction: column;
+        margin: 1rem 0rem;
+    }
+    .img-box{
+        display: none
+    }
+    .content-box{
+        flex-direction: column;
+        }
+    .between{
+        margin-bottom: 2rem;
+        padding: .5rem;
+    }
+    .dev-info{
+        text-align:center;
+    }
+    .dev-info h1{
+        font-weight: bold;
+
+    }
+    .dev-info ul li{
+        text-align: left;
+        padding-left: 4rem;
+    }
 }

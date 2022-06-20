@@ -18,6 +18,11 @@ export default function header(){
                      </a>
                 </div>
                 
+                <input type="checkbox" id="cb-menu"/>
+                <label htmlFor='cb-menu'>
+                    <div id="btn-hamburguer"><img width={30} src={Menu}/></div>
+                </label>
+
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
                     <ul className="nav-links">
@@ -30,7 +35,7 @@ export default function header(){
                 </nav> 
                 
             </div>
-            <div id="btn-hamburguer"><img width={30} src={Menu}/></div>
+            
         
         </header>
         

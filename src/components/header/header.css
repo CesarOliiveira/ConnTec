@@ -114,6 +114,9 @@ header .logo-site {
 #btn-hamburguer {
     display: none;
 }
+#cb-menu{
+    display: none
+}
 @media screen and (max-width: 1158px) {
     header {
         height: 120px;
@@ -171,7 +174,7 @@ header .logo-site {
 }
 @media screen and (max-width: 656px) {
     #btn-hamburguer {
-        display: flex;
+        display: space-between;
         position: relative;
         justify-content: space-between;
         
@@ -189,5 +192,10 @@ header .logo-site {
     }
     .nav-main {
        display: none;
+    }
+   
+    #cb-menu:checked ~ .nav-main{
+        display: flex;
+        flex-direction: column;
     }
 }
