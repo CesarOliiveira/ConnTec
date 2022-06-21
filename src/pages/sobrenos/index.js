@@ -6,9 +6,6 @@ import './gambiarra.css'
 
 import gitHub from '../../img/github.png'
 import linkedin from '../../img/linkedin.png'
-
-import DiogoGall from '../../img/imageDiogo.png'
-import Gisele from '../../img/imageGisele.png'
 // Página da Documentação do TCC - ConnTec
 function Sobrenos(){
     return(
@@ -56,16 +53,11 @@ function Sobrenos(){
 
                 <div className="container between">
                     <div className = "content-box content-right">
-<<<<<<< HEAD
                         <label htmlFor="cb-show"><div className = "img"/></label> 
-=======
-                        
-                        <label htmlFor="cb-show"><div className = "img"></div></label> 
->>>>>>> 708a13a30dc8557db32ea102416b284f2f30e210
                         <input type= "checkbox" id="cb-show"/>
                         
                         <div className="dev-info">
-                            <h1>Ana Paula Rocha da Silva  </h1> <p> DBA e Documentação</p>
+                            <h1>Ana Paula Rocha da Silva  </h1> <p> DBA e Documentalista</p>
                             <div id = "hidden-info">
                                 <ul>
                                     <li>Informações Extras</li>
@@ -121,7 +113,7 @@ function Sobrenos(){
                         <input type= "checkbox" id="cb-show4"/>
 
                         <div className="dev-info">
-                            <h1>Diogo Correia Campos </h1> <p>Full stack Mobile e DBA</p>
+                            <h1>Diogo Correia Campos </h1> <p>Full stack mobile e DBA</p>
                             <div id = "hidden-info4">
                                 <ul>
                                     <li>Informações Extras</li>
@@ -136,21 +128,11 @@ function Sobrenos(){
                 </div>
                 <div className="container between">
                     <div className = "content-box content-right">
-<<<<<<< HEAD
                         <label htmlFor="cb-show5"><div className = "img"/></label> 
-=======
-                        
-                        <label htmlFor="cb-show5"><div className = "img"><img width={160} height={160} src={DiogoGall} style={{borderRadius: 100}}/></div></label> 
->>>>>>> 708a13a30dc8557db32ea102416b284f2f30e210
                         <input type= "checkbox" id="cb-show5"/>
                         
                         <div className="dev-info">
-<<<<<<< HEAD
                             <h1>Diogo Dias Rodrigues Gallina </h1> <p>Front-end e Designer mobile</p>
-=======
-
-                            <h1>Diogo Dias Rodrigues Gallina </h1> <p>Designer Mobile</p>
->>>>>>> 708a13a30dc8557db32ea102416b284f2f30e210
                             <div id = "hidden-info5">
                                 <ul>
                                     <li>Informações Extras</li>
@@ -181,16 +163,11 @@ function Sobrenos(){
                 </div>
                 <div className="container between">
                     <div className = "content-box content-right">
-<<<<<<< HEAD
                         <label htmlFor="cb-show7"><div className = "img"/></label> 
-=======
-                        
-                        <label htmlFor="cb-show7"><div className = "img"><img width={160} height={160} src={Gisele} style={{borderRadius: 100}}/></div></label> 
->>>>>>> 708a13a30dc8557db32ea102416b284f2f30e210
                         <input type= "checkbox" id="cb-show7"/>
 
                         <div className="dev-info">
-                            <h1>Gisele Cristina dos Santos </h1> <p>Tester e Documentação</p>
+                            <h1>Gisele Cristina dos Santos </h1> <p>Tester e Documentalista</p>
                             <div id = "hidden-info7">
                                 <ul>
                                     <li>Informações Extras</li>
@@ -225,7 +202,7 @@ function Sobrenos(){
                         <input type= "checkbox" id="cb-show9"/>
 
                         <div className="dev-info">
-                            <h1>William Vinicius Ayres de Paula </h1> <p>Front-end Web e Documentação</p>
+                            <h1>William Vinicius Ayres de Paula </h1> <p>Front-end web e Documentalista</p>
                             <div id = "hidden-info9">
                                 <ul>
                                     <li>Informações Extras</li>
