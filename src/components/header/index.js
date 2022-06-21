@@ -10,7 +10,7 @@ import './header.css';
 export default function header(){
     return(
     <>
-        <header>
+        <header >
             <div className="hdbox">
                 <div className='logo-site'>
                     <a href="/">
@@ -22,7 +22,7 @@ export default function header(){
                 <label htmlFor='cb-menu'>
                     <div id="btn-hamburguer"><img width={30} src={Menu}/></div>
                 </label>
-
+                
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
                     <ul className="nav-links">
@@ -36,6 +36,8 @@ export default function header(){
                 
             </div>
             
+           
+
         
         </header>
         
