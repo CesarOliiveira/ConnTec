@@ -33,7 +33,6 @@ export default function header(){
                         <li className="nav-item"><a href="https://www.cps.sp.gov.br/">CENTRO PAULA SOUZA</a></li>
                     </ul>
                 </nav> 
-                
             </div>
             
            
