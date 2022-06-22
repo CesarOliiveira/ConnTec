@@ -32,10 +32,11 @@ export default function Inicio(){
                         <h1>Informações e Noticias da Etec</h1>
                         <h2>Para Alunos</h2>
                     
-                        <span  className='description'>Conntec é um aplicativo para celular que facilita o acessos de informações da Etec. Contando com o diversas abas para a facilidade de reconhecimento de suas necessidades. </span>
+                        <div  className='description'>Conntec é um aplicativo para celular que facilita o acessos de informações da Etec. Contando com o diversas abas para a facilidade de reconhecimento de suas necessidades. </div>
                     
                         <div className="section-button">
                             <a  className="button-download" href='#'>
+
                                 <div className="button">
                                     <span><DiAndroid/> Download</span>
                                 </div>
@@ -53,45 +54,56 @@ export default function Inicio(){
         
                 <div className='wrap-content-info'>
                     {/* Caixa de Informação 1 */}
-                    <div className='box-apresentation'>
-                        <div className='context-box'>
-                            <h1>
-                                Comunicação Etec e Aluno
-                            </h1>
-                            <div className='image-box'>
+                    <div className="container">
+                        <div className='box-apresentation'>
+                            <div className='info-box'>
 
-                                <img width={60} src={Chat} className="icon-chat"/>
+                                <div className='box-title'>
+                                    <h1> Comunicação Etec e Aluno </h1>
 
+                                    <div className='image-box'>
+                                        <img width={60} src={Chat} className="float-icon"/>
+                                    </div>
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            </div>
+
+                            <div className='demonstration-image'>
+                
+                                <img width={170} src={Celular} className="template-celular"/>
+                                <p>Test</p>
+                                
                             </div>
                         </div>
-
-                        <div className='info-box'>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                    </div>
+                    
 
                         {/* Caixa de Informação 2 */}
-                    <div className='box-apresentation'>
-                       
-                        <div className='demonstration-image inline'>
-                            <div className='template-conntec'>
-                                <img width={100} src={Conntec} className="icon-conntec"/>  
-                                <img width={170} src={Celular} className="template-celular"/>
-                                <p>Veja Informações Sobre sua Etec.</p>
+                   
+                        <div className='box-apresentation row-reverse'>
+                            <div className='info-box info-left'>
+
+                                <div className='box-title row-reverse'>
+                                    <h1> Acesso a informações </h1>
+
+                                    <div className='image-box'>
+                                        <img width={60} src={Info} className="float-icon"/>
+                                    </div>
+
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                             </div>
-                        </div>  
-                        <div className='info-box-right inline'>
-                            <img width={60} src={Info} className="icon-info"/>
-                            <h1>
-
-                                Acesso a informações
-
-                            </h1>
-                            
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
                         </div>
+
+                        <div className='demonstration-image'>
+        
+                            <img width={100} src={Conntec} className="icon-conntec"/>  
+                            <img width={170} src={Celular} className="template-celular"/>
+                            <p>Veja Informações Sobre sua Etec.</p>
+                        
+                        </div>  
                     </div>
+                    
                     {/* O que tem no aplicativo */}
 
                     <div className='list-box'>
@@ -132,6 +144,7 @@ export default function Inicio(){
                     </div>
                 </div>
             </main>
+
 
            <Footer/>
 

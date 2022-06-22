@@ -97,7 +97,6 @@ a{
 
 /* Main principal */
 #main-index {
-    width: 90%;
     height: 1800px;
     position: relative;
 }
@@ -109,33 +108,127 @@ a{
 }
 
 /* Caixa de Apresentação 1 */
-.box-apresentation {
-
-    width: 90%;
-
-    max-width: 1080px;
-    height: 380px;
-
-    margin: 0 auto;
-    margin-bottom: 80px;
-    position: relative;
-    
-}
-.context-box {
-
+.container{
     display: flex;
+    margin: 1rem 0rem;
+    flex-direction: column;
+}
+.box-apresentation {
+    max-width: 1080px;
+    margin: 0 auto;
+    margin-bottom: 80px; 
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
 
-    
+.box-title {
+    display: flex;
     width: 650px;
-
     height: 60px;
+}
+.float-icon {
+    align-self: left;
+    transform: tranlasteY(0px);
+    animation: float 3s ease-in-out infinite;
 
 }
+
+.info-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem
+}
+.info-box p{
+    padding-left: 10px;
+    padding-right: 2rem;
+    text-align: justify;
+    font: normal normal 1.025rem Verdana;
+    color: #666;
+    line-height: 1.65rem!important;
+}
+
+
+.demonstration-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.demonstration-image p {
+    font-size: 12px;
+    position: absolute;
+    margin: 130px 175px 0 ;
+    width: 130px;
+    height: 180px;
+    color: #666;
+    font-weight: 600;
+    text-align:center;    
+ }
+
+.template-celular {
+    position: absolute;
+    z-index: -1;
+    animation: float 3s linear;
+}
+
+/* Invertendo a segunda caixa de apresentação pelo css */
+
+
+.info-left p{
+    margin-left:2rem;
+    padding-right: 10px;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+/* Lista de informações */
+
+.list-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+.list {
+    padding: .5rem;
+    width: 12rem;
+}
+
+.list-box .list h1 {
+    font-weight: 600;
+    padding: 4px 46px;
+}
+.list-box .list p {
+    padding: .75rem 0rem;
+    font: normal normal 1.025rem Verdana;
+    color: #666;
+    line-height: 1.rem!important;
+}
+.list-box .list img {
+    font-weight: 600;
+    position: absolute;
+}
+.icon-apresentation {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+}
+
+
+
+
+
 
 .image-box {
-
     display: flex;
-
     justify-content: center;
 
     align-items: center;
@@ -146,29 +239,16 @@ a{
 
 }
 
-.icon-chat {
 
-    align-self: left;
 
-    transform: tranlasteY(0px);
 
-    animation: float 3s ease-in-out infinite;
-
-}
-
-#main-index .context-box h1 {
-
+.box-title h1 {
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
     padding: 0 0 0 10px;
     font: normal bold 2.50rem "Robot Slab";
-
     color: #333333;
-
 }
 
 
@@ -237,40 +317,14 @@ a{
             line-height: 1.65rem!important;
         
 }
-.demonstration-image {
-        width: 560px;
-        height: 100%;
-        display: flex;
-        
-}
-.box-apresentation .info-box-right .icon-info {
-        position: absolute;
-        right: 450px;
-        animation: float 3s ease-in-out infinite;
-}
+
+
 .inline {
         display: inline-block;
 }
-.demonstration-image {
-    position: relative;
-}
-.demonstration-image p {
-   font-size: 12px;
-   position: absolute;
-   margin: 105px 170px 0 ;
-   width: 140px;
-   height: 200px;
-   color: #666;
-   font-weight: 600;
-   
-}
-.template-celular {
-    position: absolute;
-    margin: 0 150px 0 ;
-    margin-top: -30px;
-    z-index: -1;
-    animation: float 3s linear;
-}
+
+
+
 .icon-conntec {
     position: absolute;
     margin: 52px 180px 0 ;
@@ -278,75 +332,10 @@ a{
 
 
 
-.info-box {
 
-    width: 500px;
-
-    height: 100%;
-
-    display: flex;
-
-    align-items: top;
-
-}
-
-.info-box p{
-
-    padding: 0 0 0 10px;
-
-    text-align: justify;
-
-    font: normal normal 1.025rem Verdana;
-
-    color: #666;
-
-    line-height: 1.65rem!important;
-
-}
 
 /* Descrições de Funções do Aplicativo */
-.list-box {
-    width: 120%;
-    max-width: 1080px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    
-}
-.list {
-    width: 100%;
-    max-width: 257px;
-    height: 230px;
-    padding: 12px;
-    margin-right: 12px;
-    margin-bottom: 12px;
-    display: inline-block;
-    
-   
-}
-.list:first-child {
-    margin-left: 0;
-}
-.list-box .list h1 {
-    font-weight: 600;
-    padding: 4px 46px;
-}
-.list-box .list p {
-    padding: 12px 0 20px;
-    font: normal normal 1.025rem Verdana;
-    color: #666;
 
-    line-height: 1.rem!important;
-}
-.list-box .list img {
-    font-weight: 600;
-    position: absolute;
-}
-.icon-apresentation {
-    width: 32px;
-    height: 32px;
-    position: absolute;
-}
 
 
 /* Caixa de Explicação do que é a Conntec */
