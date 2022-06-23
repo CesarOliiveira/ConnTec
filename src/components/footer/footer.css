@@ -62,7 +62,7 @@
 .ft-colum p{
     font-weight: bold;
     margin-bottom: 1rem;
-    color: #030303;
+    color: #aaa;
     
 
 }
@@ -71,12 +71,12 @@
 }
 
 .ft-colum ul li a:hover{
-    color:#002b46
+    color:#999
 }
 
 
 .ft-link{
-    color: rgb(88, 88, 88);
+    color: #666;
     font-size: 1rem;
 }
 .ft-link li{

@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css'
 
 
-import Logo from './../../img/conntec.png'
+import Logo from './../../img/LogoLight_Conntec.png'
 
 import { BsWhatsapp } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";

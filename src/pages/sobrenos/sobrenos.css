@@ -91,7 +91,7 @@ display: inline-block;
 
 /* Mostrar as informações escondidas e deixar suave*/
 .img:hover{
-transform: scale(1.3) ;
+transform: scale(1.3);
 transition-duration: .5s;
 transition-timing-function: ease;
 margin:1.5rem
