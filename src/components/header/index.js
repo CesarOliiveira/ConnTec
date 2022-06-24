@@ -26,11 +26,11 @@ export default function header(){
                 <a href="siteTCC.html" className="logo"></a> 
                 <nav className="nav-main"> 
                     <ul className="nav-links">
-                        <li className="nav-item"><a href="/">HOME</a></li>
-                        <li className="nav-item"><a href="/documento">DOCUMENTAÇÃO</a></li>
-                        <li className="nav-item"><a href="/sobrenos">SOBRE NÓS</a></li>
-                        <li className="nav-item"><a href="https://etects.com.br/">ETEC TABOÃO</a></li>
-                        <li className="nav-item"><a href="https://www.cps.sp.gov.br/">CENTRO PAULA SOUZA</a></li>
+                        <a href="/"> <li className="nav-item">HOME</li></a>
+                        <a href="/documento"><li className="nav-item">DOCUMENTAÇÃO</li></a>
+                        <a href="/sobrenos"><li className="nav-item">SOBRE NÓS</li></a>
+                        <a href="https://etects.com.br/"><li className="nav-item">ETEC TABOÃO</li></a>
+                        <a href="https://www.cps.sp.gov.br/"><li className="nav-item">CENTRO PAULA SOUZA</li></a>
                     </ul>
                 </nav> 
             </div>
