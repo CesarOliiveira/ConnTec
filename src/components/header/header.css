@@ -41,7 +41,7 @@ header {
     margin: 0 auto;
     justify-content: space-around;
     align-items: center;
-    width: 1470px;
+    width: 1190px;
     height: 100%;
     
 }
@@ -58,7 +58,7 @@ header .logo-site {
     top: 5%;
     transition: 0.6s;
     position: relative;
-    left: 12%;
+    left: 5%;
 }
 
 
@@ -68,7 +68,7 @@ header .logo-site {
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: 90%;
     position: relative;
     right: 2%;
 }
@@ -130,7 +130,7 @@ header .logo-site {
     header .logo-site{
         top: 10%;
         position: absolute;
-        left: 45%
+        left: 43%
     }
     .nav-main ul {
         position: relative;

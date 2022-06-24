@@ -17,7 +17,7 @@ function Documento(){
                         </div>
                         <div class='description-documentation'>
                             <p>
-                                Em nossa documentação abordaremos nossos Problemas, Objetivos, Solução, Funcionalidaes, Metodos usados para a conclusão do Projeto.
+                                Em nossa documentação abordaremos nossos Problemas, Objetivos, Solução, Funcionalidades, Metodos usados para a conclusão do Projeto.
                             </p>
                         </div>
                         <div className="section-button">

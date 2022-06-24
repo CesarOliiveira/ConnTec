@@ -33,3 +33,15 @@ main {
     text-align: justify;
     font: normal normal 1.025rem Verdana;
 }
+
+@media screen and (max-width: 680px) {
+     .wrap-content-documentation {
+        width: 95%;
+        height: 420px;
+        box-shadow: 0 2px 10px 0 rgb(0 0 0 / 30%);
+        margin: 0 auto;
+        margin-top: 64px;
+        border-bottom: solid 34px #005c6e;
+     }
+    
+}

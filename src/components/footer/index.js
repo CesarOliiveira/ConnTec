@@ -50,17 +50,17 @@ export default function footer(){
                         <p>LINKS</p>
                         <ul className='ft-link'>
                             <li><a href='#'>Termos de Uso</a></li>
-                            <li><a href='#'> Sobre Nós</a></li>
-                            <li><a href='#'>GitHub</a></li>
+                            <li><a href='/sobrenos'> Sobre Nós</a></li>
+                            <li><a href='https://github.com/CesarOliiveira/ConnTec'>GitHub</a></li>
                         </ul>
                     </div>
 
                     <div className = "ft-colum">
                         <p>AFILIADOS</p>
                         <ul className='ft-link'>
-                            <li><a href='#'> Etec Taboão da Serra</a></li>
+                            <li><a href='https://etects.com.br/'> Etec Taboão da Serra</a></li>
                             <li><a href='#'></a></li>
-                            <li><a href='#'> Centro Paula Souza</a></li>
+                            <li><a href='https://www.cps.sp.gov.br/'> Centro Paula Souza</a></li>
                         </ul>
                     </div>
 
