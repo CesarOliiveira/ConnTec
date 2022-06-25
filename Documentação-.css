@@ -14,7 +14,7 @@
   font-weight: 700;
   box-shadow: 5px 5px 20px 0 rgba(178,0,0,0.4);
   margin: 12px 86px 60px auto;
-  padding: 28px 82px 29px 81px;
+  padding: 16px 82px 18px 81px;
 }
 
 @media (max-width: 1199px) {
@@ -43,5 +43,6 @@
 
   .u-section-1 .u-btn-1 {
     margin-right: auto;
+    padding: 21px 57px 23px;
   }
 }
